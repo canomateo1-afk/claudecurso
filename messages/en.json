@@ -1,4 +1,19 @@
 {
+  "metadata": {
+    "title": "Claura | Automatización de Creación de Contenido con IA",
+    "description": "Agencia de IA especializada en content creation automation. Construimos sistemas que generan, publican y escalan tu contenido — sin trabajo manual.",
+    "ogTitle": "Claura | Tu agencia de Content Creation Automation",
+    "ogDescription": "Construimos el sistema que reemplaza horas de trabajo manual. Creación → publicación → distribución. Completamente automatizado."
+  },
+  "navigation": {
+    "about": "Nosotros",
+    "caseStudies": "Casos",
+    "bookFreeCall": "Reservar lugar gratis",
+    "toggleMenu": "Menú",
+    "home": "Inicio",
+    "services": "Programa",
+    "bookCall": "Reservar lugar"
+  },
   "hero": {
     "trustBadge": "De los creadores de Claura · +100 negocios automatizados",
     "titleLine1": "Construí tu negocio con",
@@ -10,22 +25,6 @@
     "ctaPrimary": "Reservar mi lugar",
     "ctaSecondary": "Cómo funciona",
     "brandsLabel": "Stack que vas a dominar:"
-  },
-  "channels": {
-    "label": "Stack que vas a dominar en el programa"
-  },
-  "services": {
-    "sectionLabel": "El programa",
-    "title": "3 meses para",
-    "titleHighlight": "transformar tu negocio",
-    "subtitle": "No es un curso. Es un programa de aceleración con herramientas reales, mentorías semanales y acompañamiento hasta que tenés resultados.",
-    "service1Title": "Mes 1 — Fundamentos",
-    "service1Description": "Claude Code, primera app, base de datos, autenticación y tu primer deploy con dominio propio.",
-    "service2Title": "Mes 2 — Automatizaciones",
-    "service2Description": "Contenido automático, emails, bots de respuesta, tu primer agente IA corriendo 24/7.",
-    "service3Title": "Mes 3 — Escalar",
-    "service3Description": "Stripe, analytics, iteración rápida y lanzamiento del producto al mercado.",
-    "learnMore": "Ver temario completo"
   },
   "stats": {
     "sectionLabel": "Resultados reales",
@@ -43,10 +42,76 @@
     "hiringDescription": "El programa tiene cupos limitados para garantizar la calidad de las mentorías y el acompañamiento.",
     "applyNow": "Reservar lugar"
   },
+  "channels": {
+    "label": "Stack que vas a dominar en el programa"
+  },
+  "services": {
+    "sectionLabel": "El programa",
+    "title": "3 meses para",
+    "titleHighlight": "transformar tu negocio",
+    "titleEnd": "que no lo son.",
+    "description": "Cuatro etapas que van desde entender tu negocio hasta dejar a tu equipo operando el sistema de forma autónoma.",
+    "discover": {
+      "title": "Discover",
+      "number": "01",
+      "description": "Entendemos tu negocio, mapeamos tus flujos actuales e identificamos exactamente dónde la IA puede eliminar trabajo manual y generar impacto real."
+    },
+    "build": {
+      "title": "Build",
+      "number": "02",
+      "description": "Diseñamos y construimos el sistema a medida — integraciones, agentes, pipelines de contenido — adaptado a cómo ya trabaja tu equipo."
+    },
+    "optimize": {
+      "title": "Optimize",
+      "number": "03",
+      "description": "Ajustamos los modelos con datos reales de tu negocio, iteramos sobre los outputs y refinamos cada parte del sistema hasta que funcione exactamente como necesitás."
+    },
+    "train": {
+      "title": "Train",
+      "number": "04",
+      "description": "Capacitamos a tu equipo para operar el sistema de forma independiente y brindamos asesoría continua para que puedas escalar sin depender de nosotros."
+    },
+    "bookFreeCall": "Agenda una llamada gratis",
+    "subtitle": "No es un curso. Es un programa de aceleración con herramientas reales, mentorías semanales y acompañamiento hasta que tenés resultados.",
+    "service1Title": "Mes 1 — Fundamentos",
+    "service1Description": "Claude Code, primera app, base de datos, autenticación y tu primer deploy con dominio propio.",
+    "service2Title": "Mes 2 — Automatizaciones",
+    "service2Description": "Contenido automático, emails, bots de respuesta, tu primer agente IA corriendo 24/7.",
+    "service3Title": "Mes 3 — Escalar",
+    "service3Description": "Stripe, analytics, iteración rápida y lanzamiento del producto al mercado.",
+    "learnMore": "Ver temario completo"
+  },
   "testimonial": {
     "quote": "Terminé el programa y en menos de 2 semanas tenía mi app corriendo con pagos integrados. Nunca pensé que podía hacer algo así sin saber programar.",
     "authorName": "Martina Calvo",
     "authorRole": "Founder — primera alumna de Claude Curso"
+  },
+  "howWeWork": {
+    "sectionLabel": "Cómo trabajamos",
+    "title": "Obteniendo resultados",
+    "titleHighlight": "sin",
+    "titleEnd": "la complejidad.",
+    "description": "Nuestro proceso de tres pasos te lleva del caos de contenido a un sistema funcionando, con comunicación clara en cada etapa.",
+    "ctaPrimary": "Agenda una llamada gratis",
+    "ctaSecondary": "Ver el video",
+    "step1": {
+      "number": "01",
+      "title": "Descubrimiento y Evaluación",
+      "timeline": "Semana 1",
+      "description": "Auditamos tu proceso de contenido e identificamos dónde un sistema puede eliminar cuellos de botella y trabajo manual."
+    },
+    "step2": {
+      "number": "02",
+      "title": "Construir e Implementar",
+      "timeline": "Semanas 2-4",
+      "description": "Diseñamos y lanzamos tu sistema de contenido personalizado—construido alrededor de cómo ya trabaja tu equipo."
+    },
+    "step3": {
+      "number": "03",
+      "title": "Capacitar y Asesorar",
+      "timeline": "Continuo",
+      "description": "Capacitamos a tu equipo para operar el sistema de forma independiente y proporcionamos asesoría continua para ayudarte a escalar."
+    }
   },
   "comparison": {
     "sectionLabel": "Por qué elegirnos",
@@ -74,6 +139,31 @@
     "titleHighlight": "por alumnos",
     "description": "Proyectos reales lanzados por emprendedores que terminaron el programa.",
     "viewAll": "Ver todos los casos"
+  },
+  "team": {
+    "sectionLabel": "Conoce al equipo",
+    "title": "Estás en manos experimentadas.",
+    "description": "Sin capas de gerencia. Trabajas directamente con los especialistas que entienden tu negocio y construyen tus sistemas de contenido de principio a fin.",
+    "member1": {
+      "name": "Marcus Chen",
+      "role": "Estratega de Contenido Principal"
+    },
+    "member2": {
+      "name": "Amira Hassan",
+      "role": "Arquitecta de Sistemas de Contenido"
+    },
+    "member3": {
+      "name": "David Park",
+      "role": "Ingeniero de Implementación"
+    },
+    "member4": {
+      "name": "Elena Martinez",
+      "role": "Gerente de Éxito del Cliente"
+    },
+    "hiringTitle": "¿Quieres ser parte del equipo?",
+    "hiringBadge": "3 vacantes disponibles",
+    "hiringDescription": "Siempre estamos buscando personas talentosas que quieran ayudar a negocios a sistematizar su contenido y construir sistemas que funcionen.",
+    "applyNow": "Aplicar ahora"
   },
   "faq": {
     "sectionLabel": "Preguntas Frecuentes",
@@ -134,6 +224,697 @@
       "scaleOperations": "Quiero lanzar un producto digital"
     }
   },
+  "footer": {
+    "tagline": "Un programa de Claura",
+    "navigate": "Navegar",
+    "resources": "Recursos",
+    "connect": "Conectar",
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "services": "Servicios",
+      "team": "Equipo",
+      "caseStudies": "Casos de Éxito",
+      "howWeWork": "Cómo Trabajamos",
+      "faq": "Preguntas Frecuentes",
+      "bookCall": "Agendar Llamada",
+      "contact": "Contacto",
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    },
+    "social": {
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "linkedin": "LinkedIn"
+    },
+    "legal": {
+      "privacyPolicy": "Política de Privacidad",
+      "termsOfService": "Términos de Servicio"
+    },
+    "copyright": "© 2026 Claude Curso by Claura",
+    "rights": "© 2026 Claude Curso by Claura"
+  },
+  "about": {
+    "hero": {
+      "sectionLabel": "Sobre nosotros",
+      "titleLine1": "En una misión para",
+      "titleLine2Highlight": "sistematizar",
+      "titleLine2End": "el contenido.",
+      "subtitle": "La mayoría de las agencias entregan contenido. Construimos Claura para hacer algo diferente—diseñar sistemas que permiten a los negocios producir, publicar y escalar contenido sin el cuello de botella.",
+      "ctaPrimary": "Agenda una llamada gratis",
+      "ctaSecondary": "Cómo trabajamos"
+    },
+    "stats": {
+      "sectionLabel": "Quiénes somos",
+      "title": "El socio en sistemas de contenido creado para ti.",
+      "description": "Creamos esta empresa para ayudar a los negocios a dejar de crear contenido de la manera difícil. Escuchamos primero, diseñamos sistemas que se adaptan a cómo trabajas, y capacitamos a tu equipo para operarlos—sin la complejidad.",
+      "stat1Value": "1,500+",
+      "stat1Label": "Horas de trabajo de contenido ahorradas al mes",
+      "stat2Value": "35%",
+      "stat2Label": "Producción de contenido más rápida en promedio",
+      "stat3Value": "45 días",
+      "stat3Label": "Tiempo promedio para un sistema de contenido funcionando"
+    },
+    "testimonial": {
+      "quote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "authorName": "Sarah Chen",
+      "authorRole": "Fundadora de BrightPath Consulting"
+    },
+    "metadata": {
+      "title": "Nosotros - Claura",
+      "description": "Conoce a Claura, el socio en sistemas de contenido creado para ayudar a las empresas a sistematizar su contenido."
+    }
+  },
+  "bookACall": {
+    "metadata": {
+      "title": "Agendá una llamada — Claura",
+      "description": "Agendá una llamada gratuita de 30 minutos y descubrí cómo la automatización con IA puede ahorrarle horas a tu equipo cada semana. Sin compromiso."
+    }
+  },
+  "caseStudies": {
+    "sectionLabel": "Casos de éxito",
+    "title": "Negocios reales, resultados reales.",
+    "subtitle": "Mira cómo hemos ayudado a empresas a convertir su trabajo de contenido más consumidor de tiempo en sistemas automatizados—entregando impacto medible en semanas, no meses.",
+    "ctaButton": "Agenda una llamada gratis",
+    "ctaSecondary": "Cómo trabajamos",
+    "howWeWorkLabel": "Cómo trabajamos",
+    "metadata": {
+      "title": "Casos de Éxito - Claura",
+      "description": "Mira cómo hemos ayudado a negocios a convertir la creación de contenido en sistemas automatizados."
+    },
+    "hamilton": {
+      "title": "Hamilton",
+      "category": "Ecommerce",
+      "description": "Un negocio de comercio electrónico de rápido crecimiento especializado en productos para el hogar y estilo de vida."
+    },
+    "terra": {
+      "title": "Terra",
+      "category": "Alimentos y Bebidas",
+      "description": "Una empresa de alimentos sostenible que entrega kits de comidas orgánicas a clientes conscientes de su salud en todo el país."
+    },
+    "savannah": {
+      "title": "Savannah",
+      "category": "Marketing",
+      "description": "Una agencia de marketing boutique que ayuda a pequeños negocios a construir su presencia digital y crecer en línea."
+    },
+    "snowflake": {
+      "title": "Snowflake",
+      "category": "Software",
+      "description": "Una empresa SaaS que proporciona herramientas de gestión de proyectos para equipos remotos en múltiples industrias."
+    },
+    "readMore": "Ver caso de estudio",
+    "loop": {
+      "title": "Loop",
+      "category": "SaaS / Publicidad",
+      "description": "Una plataforma que permite a marcas de e-commerce generar contenido publicitario, analizar competidores y publicar en Meta de forma completamente automática."
+    },
+    "spacepal": {
+      "title": "SpacePal",
+      "category": "Marketplace / Eventos",
+      "description": "Un marketplace para alquilar espacios premium para eventos que generó el 50% de su tráfico desde SEO orgánico — sin un peso en publicidad paga."
+    },
+    "remax": {
+      "title": "Remax",
+      "category": "Real Estate / PropTech",
+      "description": "Bot de contenido que genera y publica noticias inmobiliarias y promoción de propiedades diariamente para agentes — vía WhatsApp o Telegram."
+    },
+    "pulse": {
+      "title": "Pulse",
+      "category": "Music / Creator Economy",
+      "description": "Automatizamos la producción completa de sets musicales — desde trending research hasta publicación diaria en multi-cuenta YouTube."
+    },
+    "soyandina": {
+      "title": "Soy Andina",
+      "category": "Comunidad / Lifestyle / Viajes",
+      "description": "Automatizamos la generación y distribución de carruseles de contenido para una comunidad de mujeres viajeras — en Instagram, TikTok y Pinterest."
+    },
+    "curator": {
+      "title": "Content Creator",
+      "category": "Entretenimiento / Creator Economy",
+      "description": "Automatizamos el auto-clipping y distribución multilingüe de un influencer de entretenimiento — 30 clips por día en 3 cuentas en árabe, inglés y español."
+    },
+    "loyalz": {
+      "title": "Loyalz",
+      "category": "Restaurantes / Content Ops",
+      "description": "Motor de content ops para restaurantes — genera scripts de llamadas, mensajes de WhatsApp y SMS personalizados por IA, orquestados automáticamente."
+    }
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: Marzo 2026",
+    "metadata": {
+      "title": "Política de Privacidad - Claura",
+      "description": "Conoce cómo Claura recopila, usa y protege tu información personal."
+    },
+    "section1": {
+      "title": "1. Información que Recopilamos",
+      "content": "Recopilamos información que nos proporcionas directamente, como cuando llenas un formulario, agendas una llamada, o te comunicas con nosotros. Esto puede incluir tu nombre, dirección de correo electrónico, nombre de la empresa, y cualquier otra información que elijas proporcionar.",
+      "content2": "Cuando conectás cuentas de terceros (como YouTube, Instagram, TikTok o LinkedIn) a nuestras plataformas — incluyendo Claura, Adloop (adloop.app), Loop, Postiz o MixMaker — recopilamos y almacenamos tokens de autenticación necesarios para realizar acciones en tu nombre, como publicar contenido u obtener datos de análisis."
+    },
+    "section2": {
+      "title": "2. Cómo Usamos tu Información",
+      "intro": "Usamos la información que recopilamos para:",
+      "item1": "Proporcionar, mantener y mejorar nuestros servicios",
+      "item2": "Responder a tus consultas y comunicarnos contigo",
+      "item3": "Enviarte avisos técnicos, actualizaciones y mensajes de soporte",
+      "item4": "Cumplir con obligaciones legales",
+      "item5": "Publicar y programar contenido en tus cuentas de redes sociales conectadas en tu nombre",
+      "item6": "Obtener y mostrar datos de analíticas de tus cuentas conectadas"
+    },
+    "section3": {
+      "title": "3. Compartir Información",
+      "content": "No vendemos, comercializamos ni transferimos tu información personal a terceros sin tu consentimiento, excepto cuando sea necesario para proporcionar nuestros servicios o cumplir con la ley. No compartimos tus datos de usuario de Google con terceros."
+    },
+    "section4": {
+      "title": "4. Seguridad de Datos",
+      "content": "Implementamos medidas técnicas y organizacionales apropiadas para proteger tu información personal contra acceso no autorizado, alteración, divulgación o destrucción. Los tokens de autenticación se almacenan de forma segura en bases de datos cifradas y solo se utilizan para realizar las acciones que has autorizado."
+    },
+    "section5": {
+      "title": "5. Servicios de API de Google",
+      "content": "Nuestras plataformas utilizan los Servicios de API de Google para habilitar la integración con YouTube. Nuestro uso y transferencia de información recibida de las APIs de Google cumple con la",
+      "linkText": "Política de Datos de Usuario de los Servicios de API de Google",
+      "linkUrl": "https://developers.google.com/terms/api-services-user-data-policy",
+      "content2": ", incluyendo los requisitos de Uso Limitado. Específicamente:",
+      "item1": "Solo accedemos a datos de usuario de Google que son necesarios para proporcionar nuestros servicios (publicar videos, leer información del canal y mostrar analíticas)",
+      "item2": "No utilizamos datos de usuario de Google con fines publicitarios",
+      "item3": "No vendemos datos de usuario de Google a terceros",
+      "item4": "No utilizamos datos de usuario de Google para propósitos no relacionados con las funciones que has autorizado explícitamente"
+    },
+    "section6": {
+      "title": "6. Retención y Eliminación de Datos",
+      "content": "Conservamos tus datos mientras tu cuenta esté activa o según sea necesario para proporcionar nuestros servicios. Puedes solicitar la eliminación de tus datos en cualquier momento contactándonos. Cuando desconectas una cuenta de terceros, eliminamos los tokens de autenticación asociados. También puedes revocar el acceso a tu cuenta de Google en cualquier momento a través de tu",
+      "linkText": "página de permisos de cuenta de Google",
+      "linkUrl": "https://myaccount.google.com/permissions"
+    },
+    "section7": {
+      "title": "7. Contáctanos",
+      "content": "Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en"
+    },
+    "section0": {
+      "title": "Sobre Nosotros",
+      "content": "Esta Política de Privacidad aplica a los servicios operados por Claura y sus marcas comerciales relacionadas, incluyendo Adloop (adloop.app) y Loop. Cuando nos referimos a \"nosotros\" o \"nuestro\" en esta política, nos referimos a Claura y cualquiera de estas marcas afiliadas que operan bajo la misma titularidad."
+    }
+  },
+  "termsOfService": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: Marzo 2026",
+    "metadata": {
+      "title": "Términos de Servicio - Claura",
+      "description": "Lee los términos y condiciones para usar los servicios de Claura."
+    },
+    "section1": {
+      "title": "1. Aceptación de Términos",
+      "content": "Al acceder y usar los servicios de Claura, aceptas y acuerdas estar sujeto a estos Términos de Servicio. Si no estás de acuerdo con estos términos, por favor no uses nuestros servicios."
+    },
+    "section2": {
+      "title": "2. Servicios",
+      "content": "Claura proporciona sistemas de automatización de contenido, consultoría de estrategia de contenido, y servicios relacionados a través de sus plataformas incluyendo Postiz (postiz.claura-ai.com), Loop (adloop.app) y MixMaker. Estas plataformas permiten a los usuarios programar, publicar y gestionar contenido en canales de redes sociales incluyendo YouTube, Instagram, TikTok y LinkedIn."
+    },
+    "section3": {
+      "title": "3. Conexión de Cuentas de Terceros",
+      "content": "Nuestros servicios te permiten conectar cuentas de terceros (como YouTube, Instagram, TikTok y LinkedIn) para programar y publicar contenido. Al conectar estas cuentas, autorizas a Claura a acceder y usar los datos de tu cuenta como se describe en nuestra Política de Privacidad. Puedes revocar este acceso en cualquier momento desconectando la cuenta de nuestra plataforma o a través de la configuración de la cuenta del proveedor externo."
+    },
+    "section4": {
+      "title": "4. Responsabilidades del Cliente",
+      "intro": "Los clientes acuerdan:",
+      "item1": "Proporcionar información precisa y completa",
+      "item2": "Cooperar con nuestro equipo durante la implementación",
+      "item3": "Mantener la confidencialidad de cualquier credencial proporcionada",
+      "item4": "Usar nuestros servicios en cumplimiento con las leyes aplicables",
+      "item5": "Asegurarse de tener el derecho de publicar contenido a través de las cuentas conectadas",
+      "item6": "Cumplir con los términos de servicio de las plataformas de terceros conectadas"
+    },
+    "section5": {
+      "title": "5. Términos de Pago",
+      "content": "Los términos de pago se especificarán en acuerdos de servicio individuales. Todas las tarifas no son reembolsables a menos que se indique lo contrario por escrito."
+    },
+    "section6": {
+      "title": "6. Limitación de Responsabilidad",
+      "content": "Claura no será responsable por daños indirectos, incidentales, especiales, consecuentes o punitivos que surjan del uso de nuestros servicios. No somos responsables por acciones tomadas por plataformas de terceros en tu cuenta, incluyendo pero no limitado a eliminación de contenido, suspensión de cuenta o cambios de políticas."
+    },
+    "section7": {
+      "title": "7. Contacto",
+      "content": "Para preguntas sobre estos Términos, contáctanos en"
+    }
+  },
+  "languageSelector": {
+    "label": "Idioma",
+    "en": "English",
+    "es": "Español"
+  },
+  "accessibility": {
+    "title": "Declaración de Accesibilidad",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Accesibilidad - Claura",
+      "description": "Conoce el compromiso de Claura con la accesibilidad web."
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "content": "Claura está comprometida a garantizar la accesibilidad digital para personas con discapacidades. Mejoramos continuamente la experiencia del usuario para todos y aplicamos los estándares de accesibilidad relevantes."
+    },
+    "standards": {
+      "title": "Estándares",
+      "content": "Nos esforzamos por cumplir con las Pautas de Accesibilidad para el Contenido Web (WCAG) 2.1 Nivel AA. Estas pautas explican cómo hacer que el contenido web sea más accesible para personas con discapacidades."
+    },
+    "features": {
+      "title": "Características",
+      "intro": "Nuestro sitio web incluye las siguientes características de accesibilidad:",
+      "item1": "Estructura HTML semántica",
+      "item2": "Ratios de contraste de color suficientes",
+      "item3": "Soporte para navegación con teclado",
+      "item4": "Indicadores de enfoque para elementos interactivos",
+      "item5": "Texto alternativo para imágenes",
+      "item6": "Texto redimensionable sin pérdida de funcionalidad"
+    },
+    "feedback": {
+      "title": "Comentarios",
+      "content": "Agradecemos tus comentarios sobre la accesibilidad de nuestro sitio web. Si encuentras alguna barrera de accesibilidad, contáctanos en"
+    }
+  },
+  "caseStudyDetail": {
+    "common": {
+      "backToStudies": "Volver a casos de éxito",
+      "challengeLabel": "El desafío",
+      "strategyLabel": "Nuestra Estrategia",
+      "solutionLabel": "La solución",
+      "resultsLabel": "Los resultados",
+      "ctaButton": "Agenda una llamada gratis",
+      "ctaTitle": "¿Querés resultados como estos?",
+      "ctaBody": "Contanos tu proyecto y en 30 minutos te decimos cómo la IA puede transformar tu negocio.",
+      "relatedTitle": "Otros casos de éxito",
+      "caseStudyTag": "Caso de éxito",
+      "servicesLabel": "Servicios",
+      "techStackLabel": "Tech Stack",
+      "testimonialLabel": "Testimonio"
+    },
+    "hamilton": {
+      "metaTitle": "Caso Hamilton - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Hamilton a automatizar sus operaciones de e-commerce y ahorrar más de 50 horas al mes.",
+      "category": "Ecommerce",
+      "title": "Hamilton",
+      "tagline": "Del caos manual al crecimiento automatizado.",
+      "heroDescription": "Hamilton, una marca de e-commerce de rápido crecimiento especializada en productos para el hogar, estaba ahogándose en procesamiento manual de pedidos y tareas de atención al cliente. Les ayudamos a recuperar su tiempo.",
+      "stat1Value": "50+",
+      "stat1Label": "Horas ahorradas al mes",
+      "stat2Value": "40%",
+      "stat2Label": "Menos trabajo manual",
+      "stat3Value": "3x",
+      "stat3Label": "Procesamiento más rápido",
+      "stat4Value": "28 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Escalar sin los dolores de crecimiento.",
+      "challengeP1": "El equipo de Hamilton pasaba más de 60 horas a la semana en tareas repetitivas—procesando pedidos, respondiendo consultas comunes de clientes, y actualizando manualmente el inventario en múltiples plataformas.",
+      "challengeP2": "A medida que el volumen de pedidos crecía un 200% año tras año, su pequeño equipo no podía mantener el ritmo. Los errores aumentaban, los tiempos de respuesta se alargaban, y los fundadores estaban atrapados en operaciones en vez de estrategia.",
+      "strategyTitle": "Identificamos tres oportunidades de automatización de alto impacto en procesamiento de pedidos, soporte al cliente y gestión de inventario, y construimos sistemas a medida que se integraron sin interrumpir las operaciones diarias.",
+      "strategyP1": "Nuestro enfoque priorizó victorias rápidas primero, implementando flujos automatizados que entregaron ahorro de tiempo inmediato mientras construíamos hacia una eficiencia operativa integral.",
+      "solutionTitle": "Automatización inteligente, integración perfecta.",
+      "solutionP1": "Construimos un sistema de automatización personalizado que conectó su tienda Shopify, bandeja de soporte al cliente, y gestión de inventario en un solo flujo de trabajo inteligente.",
+      "solutionP2": "Las respuestas impulsadas por IA manejan el 70% de las consultas de clientes automáticamente, mientras que el enrutamiento inteligente asegura que los problemas complejos lleguen al miembro del equipo correcto. Los pedidos ahora fluyen sin intervención manual.",
+      "resultsTitle": "Resultados que hablan por sí solos.",
+      "resultsP1": "En el primer mes, el equipo de Hamilton recuperó más de 50 horas de trabajo manual. El tiempo de procesamiento de pedidos bajó de 15 minutos por pedido a menos de 5, y los tiempos de respuesta al cliente mejoraron un 80%.",
+      "resultsP2": "Los fundadores ahora pueden enfocarse en estrategia de crecimiento en vez de apagar incendios operativos diarios. Los ingresos han aumentado un 35% desde la implementación, impulsados por un cumplimiento más rápido y clientes más satisfechos.",
+      "testimonialQuote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "testimonialAuthor": "James Wilson",
+      "testimonialRole": "Cofundador de Hamilton"
+    },
+    "terra": {
+      "metaTitle": "Caso Terra - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Terra a optimizar sus operaciones de kits de comida y reducir el desperdicio en un 30%.",
+      "category": "Alimentos y Bebidas",
+      "title": "Terra",
+      "tagline": "Comida sostenible, operaciones más inteligentes.",
+      "heroDescription": "Terra entrega kits de comidas orgánicas a clientes conscientes de su salud en todo el país. Les ayudamos a optimizar su cadena de suministro y reducir el desperdicio de alimentos con automatización inteligente.",
+      "stat1Value": "30%",
+      "stat1Label": "Menos desperdicio",
+      "stat2Value": "45%",
+      "stat2Label": "Cumplimiento más rápido",
+      "stat3Value": "2x",
+      "stat3Label": "Retención de suscriptores",
+      "stat4Value": "35 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Demasiado desperdicio, muy poco tiempo.",
+      "challengeP1": "Terra estaba perdiendo casi el 20% de sus ingredientes frescos por desperdicio debido a pronósticos de demanda imprecisos. Los procesos manuales para gestión de suscripciones y programación de entregas creaban cuellos de botella.",
+      "challengeP2": "Su equipo de servicio al cliente estaba abrumado con consultas de entrega, cambios de suscripción, y solicitudes de personalización dietética—todo manejado a través de correo electrónico y hojas de cálculo.",
+      "strategyTitle": "Mapeamos toda la cadena de suministro de Terra para encontrar los puntos de mayor fricción, y diseñamos sistemas predictivos que anticipan la demanda antes de que ocurra.",
+      "strategyP1": "En lugar de reemplazar los flujos existentes, agregamos inteligencia por encima—conectando fuentes de datos que antes estaban aisladas para crear una vista unificada de las operaciones.",
+      "solutionTitle": "Sistemas predictivos que reducen el desperdicio.",
+      "solutionP1": "Implementamos un sistema de pronóstico de demanda impulsado por IA que analiza patrones de suscripción, tendencias estacionales, y datos históricos para predecir necesidades de ingredientes con un 95% de precisión.",
+      "solutionP2": "Un portal de autoservicio ahora permite a los clientes gestionar suscripciones, personalizar comidas, y rastrear entregas—reduciendo los tickets de soporte en un 60% y dando al equipo tiempo para enfocarse en la calidad del producto.",
+      "resultsTitle": "Comida más fresca, operaciones más eficientes.",
+      "resultsP1": "El desperdicio de alimentos bajó del 20% a menos del 14% en el primer trimestre. La velocidad de cumplimiento mejoró un 45%, lo que significa que los clientes reciben ingredientes más frescos y menos problemas de entrega.",
+      "resultsP2": "La retención de suscriptores se duplicó a medida que los clientes ganaron más control sobre su experiencia. Terra ahora atiende 3 veces más clientes con el mismo tamaño de equipo.",
+      "testimonialQuote": "Solo el pronóstico de demanda se pagó por sí mismo en el primer mes. Desperdiciamos menos comida y nuestros clientes están más contentos que nunca.",
+      "testimonialAuthor": "María Santos",
+      "testimonialRole": "CEO de Terra"
+    },
+    "savannah": {
+      "metaTitle": "Caso Savannah - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Savannah a automatizar sus reportes de clientes y escalar su agencia de marketing.",
+      "category": "Marketing",
+      "title": "Savannah",
+      "tagline": "Más clientes, menos trabajo repetitivo.",
+      "heroDescription": "Savannah es una agencia de marketing boutique que ayuda a pequeños negocios a crecer en línea. Automatizamos sus tareas más consumidoras de tiempo para que pudieran enfocarse en estrategia creativa.",
+      "stat1Value": "20hrs",
+      "stat1Label": "Ahorradas por semana",
+      "stat2Value": "60%",
+      "stat2Label": "Reportes más rápidos",
+      "stat3Value": "8",
+      "stat3Label": "Nuevos clientes de capacidad",
+      "stat4Value": "21 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Enterrados en hojas de cálculo y reportes.",
+      "challengeP1": "El equipo de Savannah pasaba casi la mitad de su semana en reportes de clientes, recolección de datos, y tareas de configuración de campañas. Cada reporte mensual tomaba 4-6 horas para compilar manualmente desde múltiples plataformas.",
+      "challengeP2": "Con solo 12 clientes activos, ya estaban al máximo de capacidad. Las oportunidades de nuevos negocios se rechazaban porque simplemente no había suficiente ancho de banda para incorporación y entrega.",
+      "strategyTitle": "Auditamos todo el pipeline de reportes y configuración de campañas de Savannah, identificando dónde el trabajo manual consumía más tiempo creativo.",
+      "strategyP1": "La estrategia se enfocó en automatizar el trabajo repetitivo de backend para que el equipo pudiera dedicar su energía a estrategia y producción creativa en lugar de hojas de cálculo.",
+      "solutionTitle": "Insights automatizados, reportes instantáneos.",
+      "solutionP1": "Construimos un pipeline de reportes automatizado que extrae datos de Google Analytics, Meta Ads, y plataformas de email en reportes de clientes bellamente formateados—generados en minutos, no horas.",
+      "solutionP2": "Los flujos de configuración de campañas ahora manejan las tareas de configuración repetitivas, mientras que las sugerencias de contenido asistidas por IA ayudan al equipo creativo a moverse más rápido sin sacrificar calidad.",
+      "resultsTitle": "Escalando sin contratar.",
+      "resultsP1": "Los reportes mensuales que antes tomaban 4-6 horas por cliente ahora toman menos de 30 minutos de revisión. El equipo recuperó 20 horas por semana en todas las cuentas de clientes.",
+      "resultsP2": "Savannah ha incorporado 8 nuevos clientes desde entonces sin agregar personal. Los ingresos crecieron un 40% en el primer trimestre después de la implementación, y las puntuaciones de satisfacción del cliente alcanzaron un máximo histórico.",
+      "testimonialQuote": "Pasamos de rechazar clientes a crecer activamente. La automatización liberó a nuestro equipo para hacer lo que mejor saben—estrategia creativa.",
+      "testimonialAuthor": "Lisa Park",
+      "testimonialRole": "Fundadora de Savannah"
+    },
+    "snowflake": {
+      "metaTitle": "Caso Snowflake - Claura Agencia de IA",
+      "metaDescription": "Cómo ayudamos a Snowflake a automatizar su incorporación de clientes y reducir la pérdida en un 25%.",
+      "category": "Software",
+      "title": "Snowflake",
+      "tagline": "Incorporación a escala, retención por diseño.",
+      "heroDescription": "Snowflake proporciona herramientas de gestión de proyectos para equipos remotos. Les ayudamos a transformar su proceso de incorporación de clientes y reducir drásticamente la pérdida.",
+      "stat1Value": "25%",
+      "stat1Label": "Menos cancelaciones",
+      "stat2Value": "70%",
+      "stat2Label": "Incorporación más rápida",
+      "stat3Value": "4.8/5",
+      "stat3Label": "Puntuación de satisfacción",
+      "stat4Value": "30 días",
+      "stat4Label": "Tiempo para ROI",
+      "challengeTitle": "Perdiendo clientes antes de empezar.",
+      "challengeP1": "El proceso de incorporación de Snowflake tomaba un promedio de 14 días, con clientes que requerían 3-4 llamadas de soporte solo para comenzar. Casi el 30% de los nuevos registros cancelaban dentro de los primeros 60 días.",
+      "challengeP2": "El equipo de éxito del cliente estaba al límite, guiando manualmente a cada nueva cuenta a través de la configuración mientras simultáneamente intentaban retener a los clientes en riesgo. Los seguimientos importantes se perdían.",
+      "strategyTitle": "Analizamos el recorrido completo del cliente desde el registro hasta la renovación, identificando los momentos donde los usuarios tenían más probabilidad de desconectarse.",
+      "strategyP1": "Nuestra estrategia se centró en crear puntos de contacto inteligentes en etapas críticas—guiando a nuevos usuarios hacia el valor más rápido y detectando cuentas en riesgo antes de que cancelen.",
+      "solutionTitle": "Incorporación guiada, retención proactiva.",
+      "solutionP1": "Diseñamos un flujo de incorporación inteligente que se adapta al tamaño del equipo, industria y caso de uso de cada cliente. Guías interactivas, seguimientos automatizados y ayuda contextual redujeron la necesidad de soporte manual.",
+      "solutionP2": "Un modelo predictivo de cancelación ahora identifica cuentas en riesgo antes de que se desconecten, dando al equipo de éxito tiempo para intervenir con contacto personalizado y recursos adaptados.",
+      "resultsTitle": "Mayor retención, clientes más felices.",
+      "resultsP1": "El tiempo de incorporación bajó de 14 días a solo 4. Los nuevos clientes alcanzan su primer hito de valor un 70% más rápido, y el número de llamadas de soporte durante la incorporación disminuyó un 80%.",
+      "resultsP2": "Las cancelaciones bajaron un 25% en el primer trimestre. Las puntuaciones de satisfacción del cliente subieron a 4.8 de 5, y el equipo de éxito ahora gestiona proactivamente 3 veces más cuentas.",
+      "testimonialQuote": "Nuestra incorporación solía ser nuestra mayor debilidad. Ahora es nuestra ventaja competitiva. Los clientes obtienen valor más rápido y se quedan más tiempo.",
+      "testimonialAuthor": "David Kim",
+      "testimonialRole": "VP de Éxito del Cliente en Snowflake"
+    },
+    "loop": {
+      "metaTitle": "Caso Loop - Claura Agencia de IA",
+      "metaDescription": "Cómo construimos Loop: la plataforma que genera fotos de producto, videos e-commerce y anuncios de Meta en piloto automático.",
+      "category": "SaaS / Publicidad",
+      "title": "Loop",
+      "tagline": "Un sistema que genera, analiza y publica contenido publicitario. Solo.",
+      "heroDescription": "Plataforma de generación automática de creatividades para marcas de e-commerce.",
+      "stat1Value": "10x",
+      "stat1Label": "Más contenido generado por semana",
+      "stat2Value": "80%",
+      "stat2Label": "Reducción en costos de producción",
+      "stat3Value": "24/7",
+      "stat3Label": "Agente IA analizando campañas",
+      "stat4Value": "3 semanas",
+      "stat4Label": "Tiempo de implementación",
+      "challengeTitle": "Producir contenido a escala era imposible.",
+      "challengeP1": "Una marca activa en Meta necesita entre 20 y 50 creatividades nuevas por mes para no quemarse. Eso significa contratar fotógrafos, diseñadores y videógrafos — y aún así ir siempre un paso atrás de la competencia.",
+      "challengeP2": "Encima, no había forma de saber qué estaban haciendo los competidores. Las decisiones de contenido se tomaban a ciegas, sin datos, y el presupuesto publicitario se optimizaba manualmente una vez por semana — cuando no era demasiado tarde.",
+      "strategyTitle": "Diseñamos Loop como una plataforma única que reemplaza flujos fragmentados de producción creativa, inteligencia competitiva y publicación.",
+      "strategyP1": "La estrategia fue eliminar la brecha entre creación y distribución de contenido—haciendo posible que las marcas pasen de la idea al anuncio publicado en minutos, no semanas.",
+      "solutionTitle": "Loop: generación, inteligencia y publicación en un solo lugar.",
+      "solutionP1": "Construimos Loop como una plataforma end-to-end. Desde la web, las marcas generan fotos de producto desde múltiples ángulos, renders 3D estilo Pixar y videos e-commerce — sin sesiones fotográficas, sin estudios, sin esperas. En minutos.",
+      "solutionP2": "Loop también está integrado con Meta Ad Library para descubrir y analizar los anuncios de cualquier competidor. Un agente de IA trabaja las 24 horas analizando qué creatividades están rindiendo, detecta patrones y genera nuevo contenido a partir de esas recomendaciones. Todo se publica automáticamente en cuentas orgánicas y campañas pagas de Meta.",
+      "resultsTitle": "Contenido ilimitado. Decisiones basadas en datos.",
+      "resultsP1": "Las marcas que usan Loop pasan de producir 5-10 piezas por semana a generar más de 500 creatividades por mes — con un costo de producción 80% menor al de una sesión fotográfica tradicional. El tiempo que antes se iba en coordinación de producción ahora se invierte en estrategia.",
+      "resultsP2": "El agente de IA cierra el loop: analiza el rendimiento de cada anuncio, identifica qué está funcionando para la competencia, y genera la siguiente tanda de contenido de forma autónoma. El equipo de marketing deja de apagar incendios y empieza a escalar.",
+      "testimonialQuote": "Loop cambió completamente cómo pensamos el contenido. Ya no dependemos de una agencia ni de sesiones fotográficas. Tenemos creatividades nuevas cada semana, y el agente nos dice exactamente qué está funcionando.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Fundador de Loop",
+      "siteUrl": "https://www.adloop.app",
+      "siteLinkLabel": "www.adloop.app",
+      "tools": "Instagram, Facebook, Meta",
+      "toolsLabel": "Plataformas"
+    },
+    "spacepal": {
+      "metaTitle": "Caso SpacePal - Claura Agencia de IA",
+      "metaDescription": "Cómo construimos el motor de tráfico de SpacePal: SEO programático, presencia en LLMs y multicuentas TikTok que generan el 50% del tráfico total.",
+      "category": "Marketplace / Eventos",
+      "title": "SpacePal",
+      "tagline": "De cero a 50% de tráfico orgánico, sin un peso en ads.",
+      "heroDescription": "Marketplace para alquilar espacios premium para eventos y producciones.",
+      "siteUrl": "https://www.space-pal.com",
+      "siteLinkLabel": "www.space-pal.com",
+      "tools": "SEO Programático, Reddit, TikTok, Email, WhatsApp",
+      "toolsLabel": "Canales",
+      "stat1Value": "50%",
+      "stat1Label": "Del tráfico total es orgánico",
+      "stat2Value": "100+",
+      "stat2Label": "Landing pages programáticas",
+      "stat3Value": "LLMs",
+      "stat3Label": "Aparece en ChatGPT y Perplexity",
+      "stat4Value": "3",
+      "stat4Label": "Motores de crecimiento simultáneos",
+      "challengeTitle": "Visibilidad en un nicho competitivo, sin presupuesto ilimitado.",
+      "challengeP1": "Los marketplaces de espacios para eventos dependen históricamente del boca en boca. El tráfico pago en este nicho es caro y poco escalable. SpacePal necesitaba construir un motor de tráfico orgánico que funcionara sin depender de un presupuesto publicitario constante.",
+      "challengeP2": "Además, los canales emergentes como los LLMs (ChatGPT, Perplexity) estaban captando cada vez más búsquedas de alta intención — y ningún competidor estaba posicionado ahí. Era una ventana de oportunidad que había que aprovechar antes de que se cerrara.",
+      "strategyTitle": "Diseñamos un motor de adquisición multicanal que funciona en búsqueda, redes sociales y plataformas de IA simultáneamente—cada canal reforzando a los demás.",
+      "strategyP1": "La estrategia combinó SEO programático para tráfico de búsqueda con alta intención, presencia en LLMs para canales emergentes de descubrimiento por IA, y multicuentas de TikTok para alcance social orgánico.",
+      "solutionTitle": "SEO programático, LLMs y TikTok: tres motores en paralelo.",
+      "solutionP1": "Construimos un sistema de SEO programático que genera y actualiza automáticamente landing pages para cada ciudad, tipo de espacio y tipo de evento. Las páginas se scrapeaban semanalmente para incorporar cambios de posicionamiento y actualizaciones del mercado — cubriéndolo todo desde estudios fotográficos en Buenos Aires hasta salones de eventos en Mendoza.",
+      "solutionP2": "En paralelo, ejecutamos una estrategia de presencia en LLMs: identificamos las preguntas más frecuentes del nicho en Reddit, participamos en threads clave y construimos autoridad temática para que SpacePal apareciera en respuestas de ChatGPT y Perplexity. Se complementó con multicuentas de TikTok en formato carrusel — tips sobre organización de eventos, cómo encontrar espacios, gestión de locaciones — redirigiendo de forma orgánica e indirecta hacia la plataforma.",
+      "resultsTitle": "Un motor de tráfico que trabaja 24/7.",
+      "resultsP1": "El 50% del tráfico total de SpacePal hoy viene de SEO. Las landing pages programáticas cubren decenas de ciudades y categorías, atrayendo tráfico de alta intención en el momento exacto de la decisión. El contenido se actualiza solo, sin intervención manual.",
+      "resultsP2": "SpacePal aparece en respuestas de LLMs para consultas clave del nicho — un canal de distribución que la mayoría de competidores todavía ignora. El TikTok multicanal genera audiencia fría que se convierte en tráfico directo semanas después, cerrando el funnel de forma orgánica.",
+      "testimonialQuote": "Teníamos el producto. El problema era que nadie nos encontraba. Hoy el 50% del tráfico llega solo, sin que tengamos que hacer nada. El sistema trabaja mientras nosotros dormimos.",
+      "testimonialAuthor": "Mateo Caño",
+      "testimonialRole": "Cofundador de SpacePal",
+      "solutionP3": "A esto se le sumó un sistema de segmentación personalizada: basándonos en el comportamiento de cada usuario en la plataforma — qué espacios vio, cuánto tiempo estuvo, qué categorías exploró — se construyeron segmentos automáticos que disparaban campañas de comunicación personalizadas vía WhatsApp, email y push notifications. El contenido de cada mensaje se generaba automáticamente según el perfil del usuario. El resultado: mayor engagement y retención sin intervención manual del equipo.",
+      "solutionP4": "En el frente de publicidad paga, se implementó un sistema de monitoreo 24/7 de todas las campañas activas en Meta y Google Ads. En Google, el agente optimiza continuamente a nivel de keywords y frases, y genera automáticamente miles de landing pages ultra-personalizadas según la búsqueda exacta de cada usuario — cada intención de búsqueda tiene su propia página de alta conversión. En Meta, el sistema analiza el rendimiento de cada creatividad, detecta los patrones que mejor convierten y genera nuevas variaciones de forma automática para validarlas y escalar las ganadoras."
+    },
+    "remax": {
+      "metaTitle": "Caso Remax - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos la creación de contenido para agentes inmobiliarios Remax — de 3 posts por semana a publicación diaria.",
+      "category": "Real Estate / PropTech",
+      "title": "Remax",
+      "tagline": "De 3 posts por semana a contenido diario — sin tocar una computadora.",
+      "heroDescription": "Bot de contenido para agentes inmobiliarios que automatiza la creación y publicación en TikTok, Instagram y Facebook vía WhatsApp o Telegram.",
+      "stat1Value": "5x",
+      "stat1Label": "Más contenido por semana",
+      "stat2Value": "80%",
+      "stat2Label": "Menos tiempo en contenido",
+      "stat3Value": "Diario",
+      "stat3Label": "Publicación consistente",
+      "stat4Value": "3",
+      "stat4Label": "Plataformas en simultáneo",
+      "challengeTitle": "Publicar contenido no era el trabajo de los agentes — pero era obligatorio.",
+      "challengeP1": "Los agentes inmobiliarios de Remax pasaban horas a la semana creando posts para Instagram, TikTok y Facebook. Redactar noticias del sector, diseñar imágenes de sus propiedades, pensar el formato correcto para cada red — tareas que no son su expertise y que los alejaban de lo que realmente genera comisiones.",
+      "challengeP2": "El resultado: publicaban 3 veces por semana en el mejor caso, sin consistencia ni personalización. Cada agente hacía lo que podía, y la oficina no tenía forma de mantener una presencia digital uniforme.",
+      "strategyTitle": "Diseñamos un bot personalizado por agente que automatiza el 100% del pipeline de contenido — desde la búsqueda de información hasta la publicación final.",
+      "strategyP1": "La estrategia fue eliminar la fricción por completo. El agente no tiene que buscar noticias, no tiene que diseñar nada, no tiene que recordar publicar. El bot lo hace solo y le pregunta si aprueba antes de publicar.",
+      "solutionTitle": "Un bot personal de contenido, gestionado por WhatsApp o Telegram.",
+      "solutionP1": "El bot scrapea diariamente los principales diarios locales de bienes raíces y genera noticias del sector en formato carrusel o post — con diseño adaptado al estilo de cada agente. También genera contenido promocional para las propiedades activas: carruseles de fotos, posts de descripción y videos cortos para Reels y TikTok.",
+      "solutionP2": "Todo se maneja por WhatsApp o Telegram según la preferencia del agente. El bot envía las propuestas del día, el agente aprueba o rechaza con un mensaje, y el contenido se publica automáticamente en TikTok, Instagram y Facebook. Sin apps extra, sin curva de aprendizaje, sin fricción.",
+      "resultsTitle": "5 veces más contenido. 80% menos tiempo.",
+      "resultsP1": "Los agentes pasaron de publicar 3 veces por semana (en el mejor caso) a publicar todos los días de forma consistente y personalizada. El contenido dejó de ser una tarea pendiente y pasó a ser un activo que trabaja solo.",
+      "resultsP2": "La oficina Remax logró una presencia digital uniforme sin necesidad de contratar community managers ni coordinar a cada agente. Cada bot refleja el estilo personal del agente y la identidad de la marca — al mismo tiempo.",
+      "testimonialQuote": "No nos abrumaron con opciones. Simplemente construyeron exactamente lo que necesitábamos. Estamos ahorrando 15 horas a la semana y vimos ROI en menos de dos meses.",
+      "testimonialAuthor": "Ines Oreilly",
+      "testimonialRole": "Agente en Remax"
+    },
+    "pulse": {
+      "metaTitle": "Caso Pulse - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos la producción de sets musicales para un DJ influencer — de 4 videos al mes a 10 videos diarios.",
+      "category": "Music / Creator Economy",
+      "title": "Pulse",
+      "tagline": "De 4 sets al mes a 10 videos por día — sin tocar una DAW.",
+      "heroDescription": "Automatización completa de producción musical: trending research, auto-mixing con IA, fondos generados con AI y publicación diaria en multi-cuenta YouTube.",
+      "stat1Value": "75x",
+      "stat1Label": "Más contenido producido",
+      "stat2Value": "10/día",
+      "stat2Label": "Videos publicados en multi-cuenta",
+      "stat3Value": "4→300",
+      "stat3Label": "Videos por mes",
+      "stat4Value": "100%",
+      "stat4Label": "Pipeline automatizado",
+      "challengeTitle": "Producir sets de calidad llevaba días. Y solo salían 4 al mes.",
+      "challengeP1": "El DJ tenía un canal de YouTube que era su principal fuente de ingresos: views orgánicas, leads de clientes y ventas de publicidad a marcas. El problema era la producción — encontrar canciones trending, mezclarlas bien, animar los fondos, editar el video y subir todo tomaba días enteros de trabajo.",
+      "challengeP2": "Con 4 videos al mes, el algoritmo de YouTube no lo favorecía. La consistencia y la frecuencia son clave para crecer en la plataforma — pero sin un equipo de producción, era imposible escalar sin sacrificar calidad.",
+      "strategyTitle": "Automatizamos cada etapa del pipeline de producción, desde la búsqueda de canciones hasta la publicación final — sin intervención manual.",
+      "strategyP1": "La estrategia fue construir un sistema modular donde cada etapa alimenta a la siguiente de forma autónoma: trending research → curación → mixing → video generation → publicación. El DJ solo aprueba el output final.",
+      "solutionTitle": "Un pipeline de producción musical completamente automatizado.",
+      "solutionP1": "El sistema empieza con la Spotify API para identificar las canciones con más engagement y crecimiento en los nichos clave del DJ. Un agente analiza métricas de streams, saves y playlist adds para seleccionar automáticamente las canciones con más potencial de viralizarse.",
+      "solutionP2": "Una vez seleccionadas, Python + FFmpeg se encargan del auto-mixing: crossfade inteligente, beat matching, normalización de niveles y estructura de intro/outro. El resultado suena como un set mezclado a mano. En paralelo, ComfyUI genera fondos visuales combinando footage real del DJ con escenas generadas con IA — loops, visualizaciones y ambientes que se sincronizan con la música. Remotion ensambla todo el video final, agrega elementos de engagement como trivias y overlays, y lo exporta listo para subir.",
+      "resultsTitle": "De 4 al mes a 300. Sin tocar un editor.",
+      "resultsP1": "El sistema publica 10 videos por día distribuidos en múltiples cuentas de YouTube. Lo que antes tomaba días de trabajo ahora ocurre en minutos. El DJ pasó de 4 videos al mes a más de 300 — un incremento de 75x — sin contratar editores ni productores.",
+      "resultsP2": "El aumento en consistencia disparó el alcance orgánico y las visualizaciones. Más contenido significa más inventory para vender publicidad a marcas, más oportunidades de monetización y un canal que crece en piloto automático mientras el DJ se enfoca en lo que realmente hace: crear música.",
+      "testimonialQuote": "Antes dedicaba días enteros a producir un set. Ahora el sistema lo hace solo y yo me enfoco en la música. El volumen de contenido que manejamos hoy era impensable hace 6 meses.",
+      "testimonialAuthor": "Pulse",
+      "testimonialRole": "DJ & Content Creator"
+    },
+    "soyandina": {
+      "metaTitle": "Caso Soy Andina - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos los carruseles de contenido de una comunidad de mujeres viajeras para escalar su presencia en Instagram, TikTok y Pinterest — con millones de views.",
+      "category": "Comunidad / Lifestyle / Viajes",
+      "title": "Soy Andina",
+      "tagline": "De una sola voz a una marca que comunica desde todos los ángulos.",
+      "heroDescription": "Comunidad de mujeres viajeras con 65K seguidores en Instagram — experiencias en la montaña, viajes grupales y conexión con la naturaleza.",
+      "stat1Value": "M+",
+      "stat1Label": "Views generadas",
+      "stat2Value": "3",
+      "stat2Label": "Canales activos",
+      "stat3Value": "100%",
+      "stat3Label": "Contenido automatizado",
+      "stat4Value": "65K+",
+      "stat4Label": "Seguidores en Instagram",
+      "challengeTitle": "La marca dependía de una sola persona para existir en redes.",
+      "challengeP1": "Soy Andina había construido una comunidad de mujeres apasionadas por los viajes y la naturaleza — pero toda la presencia digital giraba alrededor de la figura personal de la founder. Ella era la que creaba el contenido, la que hablaba a cámara, la que publicaba.",
+      "challengeP2": "Esa dependencia tenía un techo claro: no podían escalar a nuevos canales, no podían mantener consistencia cuando la founder estaba viajando, y la marca no tenía vida propia más allá de su cara. Instagram era el único canal activo, y el ritmo de publicación era irregular.",
+      "strategyTitle": "Diseñamos un sistema que genera carruseles de alta calidad de forma automatizada — adaptados a cada plataforma y al espíritu de la comunidad.",
+      "strategyP1": "La estrategia fue darle a la marca una voz visual independiente de la founder. Carruseles que cuentan historias, comparten inspiración de viajes y reflejan la identidad de la comunidad — sin necesitar producción manual para cada pieza.",
+      "solutionTitle": "Un pipeline automatizado de carruseles para Instagram, TikTok y Pinterest.",
+      "solutionP1": "El sistema combina Nano Banana Pro para generar las imágenes base, la API de Unsplash para fotografía de paisajes y naturaleza, y node-canvas para componer los overlays de texto con la identidad visual de Soy Andina. ComfyUI agrega el tratamiento visual final — grading, texturas y consistencia estética en todas las piezas.",
+      "solutionP2": "Los carruseles se distribuyen automáticamente en Instagram vía la API oficial, en TikTok como slideshows y en Pinterest como pins. Cada formato se adapta al canal: proporciones, textos y hooks distintos para cada plataforma. La founder aprueba los lotes semanales con un solo clic.",
+      "resultsTitle": "Millones de views. Una marca que ya no depende de una sola voz.",
+      "resultsP1": "Con el sistema activo, Soy Andina pasó de publicar esporádicamente en un solo canal a tener presencia consistente en tres plataformas simultáneamente. Los carruseles automatizados generaron millones de views acumuladas y expandieron el alcance de la comunidad más allá de su base existente.",
+      "resultsP2": "El cambio más importante no fue el volumen: fue estructural. La marca dejó de ser la foto de la founder y se convirtió en una identidad propia. Distintos ángulos de comunicación, distintos canales, una sola voz — automatizada.",
+      "testimonialQuote": "Antes nos basábamos mucho en la figura personal de la founder. Con esto empezamos a construir una marca mucho más robusta, atacando distintos ángulos de comunicación desde distintos canales.",
+      "testimonialAuthor": "Soy Andina",
+      "testimonialRole": "Comunidad de Viajes · @soyandina.viajes"
+    },
+    "curator": {
+      "metaTitle": "Caso Curator - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos el auto-clipping multilingüe de un influencer de entretenimiento — 30 clips por día en árabe, inglés y español, distribuidos en YouTube, TikTok e Instagram.",
+      "category": "Entretenimiento / Creator Economy",
+      "title": "Content Creator",
+      "tagline": "30 clips por día. 3 idiomas. 0 intervención manual.",
+      "heroDescription": "Influencer de entretenimiento con audiencias en árabe, inglés y español — contenido de largo aliento convertido en clips virales a escala.",
+      "stat1Value": "30",
+      "stat1Label": "Clips publicados por día",
+      "stat2Value": "3",
+      "stat2Label": "Cuentas activas en simultáneo",
+      "stat3Value": "3",
+      "stat3Label": "Idiomas automatizados",
+      "stat4Value": "100%",
+      "stat4Label": "Pipeline sin intervención manual",
+      "challengeTitle": "El creador tenía audiencias en tres idiomas pero un solo equipo — y no podía llegar a todos.",
+      "challengeP1": "Curator generaba contenido de largo aliento con alta calidad — pero su alcance estaba limitado por el idioma y el volumen. Publicar en árabe, inglés y español requería equipos separados, edición manual y una logística de distribución imposible de escalar sin multiplicar los costos.",
+      "challengeP2": "El resultado: una fracción de su audiencia potencial recibía el contenido, y la frecuencia de publicación era demasiado baja para que el algoritmo de YouTube, TikTok e Instagram favoreciera sus cuentas. La consistencia y el volumen son clave — y sin automatización, eran inalcanzables.",
+      "strategyTitle": "Construimos un pipeline que detecta automáticamente los mejores momentos del video, los recorta y los distribuye en las tres cuentas sin intervención humana.",
+      "strategyP1": "La estrategia fue separar la producción de la distribución. El creador graba una vez — el sistema se encarga del resto. Auto-clipping inteligente para identificar los momentos de mayor engagement, corte preciso con FFmpeg y publicación automatizada en cada cuenta según su idioma y plataforma.",
+      "solutionTitle": "Auto-clipping multilingüe con distribución automática en YouTube, TikTok e Instagram.",
+      "solutionP1": "El sistema analiza cada video de largo aliento para identificar los segmentos con mayor potencial viral: cambios de ritmo, frases de impacto, momentos de humor o tensión. FFmpeg corta los clips con precisión de frame, normaliza el audio y los exporta optimizados para cada plataforma — proporciones y bitrate distintos para Shorts, Reels y TikTok.",
+      "solutionP2": "Cada clip se publica automáticamente en la cuenta correspondiente al idioma del contenido: árabe, inglés o español. La distribución corre en paralelo en YouTube Shorts, TikTok e Instagram Reels, con captions y hashtags generados automáticamente para cada idioma. 10 clips por cuenta, todos los días, sin que el creador toque nada.",
+      "resultsTitle": "30 clips por día. Tres audiencias. Un solo sistema.",
+      "resultsP1": "Con el pipeline activo, Curator pasó de publicar esporádicamente a tener 30 clips diarios distribuidos en tres cuentas y tres plataformas. La frecuencia disparó el alcance orgánico en cada idioma — el algoritmo empezó a favorecer las cuentas por la consistencia y el volumen.",
+      "resultsP2": "El creador recuperó su tiempo para enfocarse en producir contenido de calidad, sabiendo que el sistema se encarga de extraer el máximo valor de cada video. Tres audiencias distintas, un solo esfuerzo de producción — multiplicado por la automatización.",
+      "testimonialQuote": "Antes grababa un video y llegaba a una fracción de mi audiencia. Ahora cada video se convierte en 30 clips que llegan a tres idiomas distintos de forma automática. Es como tener tres equipos trabajando 24/7.",
+      "testimonialAuthor": "Curator",
+      "testimonialRole": "Influencer de Entretenimiento"
+    },
+    "loyalz": {
+      "metaTitle": "Caso Loyalz - Claura Agencia de IA",
+      "metaDescription": "Cómo automatizamos la generación de contenido personalizado para comunicaciones de restaurantes — scripts, mensajes y workflows a escala.",
+      "category": "Restaurantes / Content Ops",
+      "title": "Loyalz",
+      "tagline": "Content ops para restaurantes — mensajes personalizados que se escriben solos.",
+      "heroDescription": "Sistema de generación de contenido y orquestación de comunicaciones para restaurantes. Scripts de llamadas, mensajes de WhatsApp, SMS — todo personalizado por IA y disparado automáticamente.",
+      "stat1Value": "1000+",
+      "stat1Label": "Mensajes personalizados/día",
+      "stat2Value": "0",
+      "stat2Label": "Templates escritos a mano",
+      "stat3Value": "100%",
+      "stat3Label": "Contenido generado por IA",
+      "stat4Value": "4",
+      "stat4Label": "Canales orquestados",
+      "challengeTitle": "Personalizar comunicaciones a escala es imposible — hasta que la IA escribe por vos.",
+      "challengeP1": "Loyalz tenía la visión de que cada cliente de restaurante recibiera comunicaciones personalizadas: un mensaje distinto para quien dejó una mala review que para quien no vuelve hace un mes. Pero escribir esos mensajes manualmente no escala.",
+      "challengeP2": "Necesitaban un sistema que genere el contenido de cada interacción automáticamente — scripts de llamadas telefónicas, mensajes de WhatsApp, SMS, respuestas en Instagram — adaptándose al contexto de cada cliente y cada situación.",
+      "strategyTitle": "Diseñamos un motor de content ops que genera mensajes personalizados en tiempo real y orquesta cuándo, a quién y por qué canal enviarlos.",
+      "strategyP1": "La estrategia fue separar la generación del contenido de la ejecución. Primero, la IA entiende el contexto (historial del cliente, tipo de evento, tono de la marca). Después genera el mensaje perfecto. Finalmente, el sistema de ops decide el momento y canal óptimo para enviarlo.",
+      "solutionTitle": "Un cerebro de contenido que alimenta todos los canales.",
+      "solutionP1": "Construimos el motor de generación con Claude para entender contexto y generar mensajes naturales. Cada restaurante define su tono de voz y reglas de negocio, y el sistema produce contenido que suena humano y personalizado — desde scripts completos para llamadas con ElevenLabs hasta mensajes cortos de WhatsApp.",
+      "solutionP2": "La capa de ops orquesta todo: triggers basados en eventos (nueva review, cliente inactivo, reserva próxima), selección automática del canal óptimo, y scheduling inteligente para no saturar. Los restaurantes ven un dashboard con todo el contenido generado y las métricas de cada mensaje.",
+      "resultsTitle": "Contenido infinito. Cero escritura manual.",
+      "resultsP1": "Loyalz pasó de necesitar copywriters para cada template a tener un sistema que genera miles de mensajes únicos por día. Cada comunicación se siente personal porque lo es — la IA conoce el contexto y adapta el tono.",
+      "resultsP2": "Los restaurantes ya no piensan en qué escribir. Configuran las reglas una vez y el sistema genera y envía todo automáticamente. Content ops en piloto automático.",
+      "testimonialQuote": "Claura entendió que nuestro problema no era enviar mensajes — era escribirlos. Construyeron un sistema que genera contenido perfecto para cada situación, y nosotros solo aprobamos las reglas.",
+      "testimonialAuthor": "Equipo Loyalz",
+      "testimonialRole": "Fundadores"
+    }
+  },
+  "cookiePolicy": {
+    "title": "Política de Cookies",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "metadata": {
+      "title": "Política de Cookies - Claura",
+      "description": "Conoce cómo Claura usa cookies en nuestro sitio web."
+    },
+    "whatAreCookies": {
+      "title": "¿Qué Son las Cookies?",
+      "content": "Las cookies son pequeños archivos de texto que se almacenan en tu computadora o dispositivo móvil cuando visitas nuestro sitio web. Nos ayudan a brindarte una mejor experiencia y permiten que ciertas funciones trabajen."
+    },
+    "howWeUse": {
+      "title": "Cómo Usamos las Cookies",
+      "intro": "Usamos cookies para los siguientes propósitos:",
+      "essential": "Cookies esenciales: Requeridas para que el sitio web funcione correctamente",
+      "analytics": "Cookies de análisis: Nos ayudan a entender cómo los visitantes usan nuestro sitio",
+      "preference": "Cookies de preferencia: Recuerdan tu configuración y preferencias"
+    },
+    "managing": {
+      "title": "Gestión de Cookies",
+      "content": "Puedes controlar y/o eliminar cookies como desees. Puedes eliminar todas las cookies que ya están en tu computadora y puedes configurar la mayoría de los navegadores para evitar que se coloquen. Sin embargo, si haces esto, es posible que tengas que ajustar manualmente algunas preferencias cada vez que visites nuestro sitio."
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "content": "Si tienes preguntas sobre nuestro uso de cookies, contáctanos en"
+    }
+  },
+  "serviceDetail": {
+    "common": {
+      "backToHome": "Volver al inicio",
+      "problemLabel": "El problema",
+      "solutionLabel": "Cómo lo resolvemos",
+      "processLabel": "Cómo funciona",
+      "resultsLabel": "Resultados típicos",
+      "featuresLabel": "Qué incluye",
+      "techStackLabel": "Tech Stack",
+      "testimonialLabel": "Testimonio",
+      "relatedTitle": "Casos de éxito relacionados"
+    },
+    "automatizacion-contenido": {
+      "metaTitle": "Automatización de Contenido con IA — Claura",
+      "metaDescription": "Generamos y publicamos contenido para Instagram, TikTok, YouTube y LinkedIn de forma automática. Preservamos tu identidad de marca con IA.",
+      "title": "Automatización de Contenido",
+      "heroDescription": "Generamos, adaptamos y publicamos contenido para todas tus redes sociales. Automáticamente.",
+      "problemTitle": "Crear contenido a escala es insostenible.",
+      "problemP1": "Una marca activa necesita entre 20 y 60 piezas de contenido por mes para mantener relevancia en redes sociales. Eso significa diseñadores, copywriters, editores de video, y alguien que lo suba todo. Para la mayoría de las empresas, es demasiado caro o directamente imposible.",
+      "problemP2": "Además, cada plataforma tiene su formato óptimo. Lo que funciona en Instagram no sirve para TikTok. Adaptar cada pieza manualmente multiplica el trabajo. El resultado: las marcas publican poco, publican mal, o dejan de publicar.",
+      "solutionTitle": "IA que crea contenido como tu marca lo haría.",
+      "solutionP1": "Configuramos un sistema que aprende tu tono de voz, tu estilo visual y tu público. A partir de eso, genera carruseles, videos, reels y posts optimizados para cada plataforma—manteniendo la identidad de tu marca intacta.",
+      "solutionP2": "El contenido se adapta automáticamente al formato de cada red (4:5 para Instagram, 9:16 para TikTok, 16:9 para YouTube) y se publica en los horarios óptimos. Multicuenta incluido: podés manejar 5 o 50 cuentas desde el mismo sistema.",
+      "processTitle": "De cero a publicado en piloto automático.",
+      "processP1": "Primero hacemos un relevamiento de tu marca: analizamos tu Instagram, tu web, tu tono de voz y tu público objetivo. Con eso armamos un brief de marca que alimenta a la IA.",
+      "processP2": "Después configuramos la pipeline: generación de contenido → revisión automática → adaptación por plataforma → programación → publicación. Vos solo aprobás los lotes o dejás que corra solo.",
+      "stat1Value": "10x",
+      "stat1Label": "Más contenido por mes",
+      "stat2Value": "80%",
+      "stat2Label": "Menos tiempo de producción",
+      "stat3Value": "6+",
+      "stat3Label": "Plataformas simultáneas",
+      "stat4Value": "24/7",
+      "stat4Label": "Publicación automática",
+      "testimonialQuote": "Pasamos de publicar 3 veces por semana a tener contenido diario en todas las plataformas. Sin contratar a nadie más.",
+      "testimonialAuthor": "Cliente de automatización de contenido",
+      "testimonialRole": "Marca de lifestyle, Argentina"
+    }
+  },
   "education": {
     "sectionLabel": "Educación",
     "title": "Aprendé a construir con",
@@ -148,20 +929,5 @@
     "feature3Desc": "Herramientas, agentes y flujos listos para usar.",
     "feature4Title": "12+ mentorías en vivo",
     "feature4Desc": "Acompañamiento semanal hasta tener resultados."
-  },
-  "navigation": {
-    "home": "Inicio",
-    "services": "Programa",
-    "caseStudies": "Casos",
-    "about": "Nosotros",
-    "bookCall": "Reservar lugar"
-  },
-  "footer": {
-    "tagline": "Un programa de",
-    "rights": "© 2026 Claude Curso by Claura",
-    "links": {
-      "privacy": "Privacidad",
-      "terms": "Términos"
-    }
   }
 }

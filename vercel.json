@@ -1,6 +1,3 @@
 {
-  "redirects": [
-    { "source": "/", "destination": "/es", "permanent": false },
-    { "source": "/en/(.*)", "destination": "/es/$1", "permanent": false }
-  ]
+  "framework": "nextjs"
 }
