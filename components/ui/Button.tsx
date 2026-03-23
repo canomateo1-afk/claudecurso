@@ -84,7 +84,7 @@ export function Button({
         whileHover={{ scale: 1.02, y: -1 }}
         whileTap={{ scale: 0.98 }}
         transition={springTransition}
-        data-cal-namespace="construye-y-automatiza-con-ia"
+        data-cal-namespace="crea-tu-primer-plataforma-con-claude"
         data-cal-link={calLink}
         data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
       >

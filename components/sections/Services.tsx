@@ -144,8 +144,8 @@ export function Services() {
                 </p>
 
                 <button
-                  data-cal-namespace="construye-y-automatiza-con-ia"
-                  data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+                  data-cal-namespace="crea-tu-primer-plataforma-con-claude"
+                  data-cal-link="mateo-cano/crea-tu-primer-plataforma-con-claude"
                   data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
                   className="inline-flex items-center gap-2 text-sm font-medium text-[var(--color-text-primary)] hover:text-[var(--color-brown)] transition-colors cursor-pointer"
                 >

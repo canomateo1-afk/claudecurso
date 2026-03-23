@@ -184,8 +184,8 @@ export function Footer() {
                 <li key={link.label}>
                   {link.calLink ? (
                     <button
-                      data-cal-namespace="construye-y-automatiza-con-ia"
-                      data-cal-link="mateo-cano/construye-y-automatiza-con-ia"
+                      data-cal-namespace="crea-tu-primer-plataforma-con-claude"
+                      data-cal-link="mateo-cano/crea-tu-primer-plataforma-con-claude"
                       data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
                       className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer"
                     >

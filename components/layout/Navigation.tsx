@@ -90,13 +90,13 @@ export function Navigation() {
                   transition={{ duration: 0.2 }}
                   className="md:hidden"
                 >
-                  <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm">
+                  <Button calLink="mateo-cano/crea-tu-primer-plataforma-con-claude" size="sm">
                     {t("bookFreeCall")}
                   </Button>
                 </motion.div>
               )}
             </AnimatePresence>
-            <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm" className="hidden md:inline-flex">
+            <Button calLink="mateo-cano/crea-tu-primer-plataforma-con-claude" size="sm" className="hidden md:inline-flex">
               {t("bookFreeCall")}
             </Button>
           </div>
@@ -126,7 +126,7 @@ export function Navigation() {
               ))}
               <div className="py-2">
                 </div>
-              <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm" className="w-full">
+              <Button calLink="mateo-cano/crea-tu-primer-plataforma-con-claude" size="sm" className="w-full">
                 {t("bookFreeCall")}
               </Button>
             </div>
