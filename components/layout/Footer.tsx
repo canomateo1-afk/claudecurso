@@ -46,13 +46,10 @@ export function Footer() {
   const footerLinks = {
     navigate: [
       { href: "/", label: t("links.home") },
-      { href: "/about", label: t("links.about") },
-      { href: "/#services", label: t("links.services") },
-      { href: "/#team", label: t("links.team") },
+      { href: "/#services", label: "Programa" },
     ],
     resources: [
-      { href: "/case-studies", label: t("links.caseStudies") },
-      { href: "/#how-we-work", label: t("links.howWeWork") },
+
       { href: "/#faq", label: t("links.faq") },
     ],
     connect: [
@@ -80,7 +77,7 @@ export function Footer() {
           className="text-center mb-8"
         >
           <Link href="/" className="font-display text-4xl md:text-5xl font-normal tracking-tight">
-            Claura
+            Claude <span className="italic font-light text-[var(--color-brown-muted)]">Curso</span>
           </Link>
           <p className="text-[var(--color-text-secondary)] text-base mt-3">
             {t("tagline")}

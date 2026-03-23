@@ -13,9 +13,8 @@ export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const navLinks = [
-    { href: "/about", label: t("about") },
-    { href: "/case-studies", label: t("caseStudies") },
+  const navLinks: { href: string; label: string }[] = [
+
   ];
 
   useEffect(() => {
@@ -75,7 +74,7 @@ export function Navigation() {
               isScrolled ? "opacity-0 pointer-events-none md:opacity-100 md:pointer-events-auto" : "opacity-100"
             )}
           >
-            Claura
+            Claude <span className="italic font-light text-[var(--color-brown-muted)]">Curso</span>
           </Link>
 
           {/* Right side - Language selector & CTA button (desktop) / CTA (mobile on scroll) */}
