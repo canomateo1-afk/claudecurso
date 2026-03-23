@@ -7,7 +7,6 @@ import { Menu, X } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { Button } from "@/components/ui";
-import { LanguageSelector } from "./LanguageSelector";
 
 export function Navigation() {
   const t = useTranslations("navigation");
@@ -82,7 +81,6 @@ export function Navigation() {
           {/* Right side - Language selector & CTA button (desktop) / CTA (mobile on scroll) */}
           <div className="flex items-center gap-4">
             <div className="hidden md:flex items-center gap-4">
-              <LanguageSelector />
             </div>
             <AnimatePresence>
               {isScrolled && (
@@ -128,8 +126,7 @@ export function Navigation() {
                 </Link>
               ))}
               <div className="py-2">
-                <LanguageSelector />
-              </div>
+                </div>
               <Button calLink="mateo-cano/construye-y-automatiza-con-ia" size="sm" className="w-full">
                 {t("bookFreeCall")}
               </Button>
