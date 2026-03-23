@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "trustBadge": "De los creadores de Claura · +100 negocios automatizados",
+    "titleLine1": "Construí tu negocio con",
+    "titleLine2": "IA y automatización",
+    "titleLine3Start": "en",
+    "titleHighlight": "3 meses",
+    "titleLine3End": ".",
+    "subtitle": "Programa de aceleración para emprendedores que quieren construir con IA de verdad. Acceso al stack completo de Claura, mentorías semanales y comunidad activa.",
+    "ctaPrimary": "Reservar mi lugar",
+    "ctaSecondary": "Cómo funciona",
+    "brandsLabel": "Stack que vas a dominar:"
+  },
+  "channels": {
+    "label": "Stack que vas a dominar en el programa"
+  },
+  "services": {
+    "sectionLabel": "El programa",
+    "title": "3 meses para",
+    "titleHighlight": "transformar tu negocio",
+    "subtitle": "No es un curso. Es un programa de aceleración con herramientas reales, mentorías semanales y acompañamiento hasta que tenés resultados.",
+    "service1Title": "Mes 1 — Fundamentos",
+    "service1Description": "Claude Code, primera app, base de datos, autenticación y tu primer deploy con dominio propio.",
+    "service2Title": "Mes 2 — Automatizaciones",
+    "service2Description": "Contenido automático, emails, bots de respuesta, tu primer agente IA corriendo 24/7.",
+    "service3Title": "Mes 3 — Escalar",
+    "service3Description": "Stripe, analytics, iteración rápida y lanzamiento del producto al mercado.",
+    "learnMore": "Ver temario completo"
+  },
+  "stats": {
+    "sectionLabel": "Resultados reales",
+    "title": "Lo que logran nuestros",
+    "titleHighlight": "alumnos",
+    "description": "No enseñamos teoría. Enseñamos a construir cosas reales que generan resultados desde el primer día.",
+    "stat1Value": "3",
+    "stat1Label": "meses de programa completo",
+    "stat2Value": "12+",
+    "stat2Label": "mentorías en vivo incluidas",
+    "stat3Value": "$1,800",
+    "stat3Label": "USD · pago único · acceso de por vida",
+    "hiringTitle": "¿Querés saber más?",
+    "hiringBadge": "Cupos limitados",
+    "hiringDescription": "El programa tiene cupos limitados para garantizar la calidad de las mentorías y el acompañamiento.",
+    "applyNow": "Reservar lugar"
+  },
+  "testimonial": {
+    "quote": "Terminé el programa y en menos de 2 semanas tenía mi app corriendo con pagos integrados. Nunca pensé que podía hacer algo así sin saber programar.",
+    "authorName": "Martina Calvo",
+    "authorRole": "Founder — primera alumna de Claude Curso"
+  },
+  "comparison": {
+    "sectionLabel": "Por qué elegirnos",
+    "title": "No somos un curso típico.",
+    "description": "La mayoría de los cursos online te venden videos. Nosotros te damos herramientas reales, mentorías semanales y acompañamiento hasta que tenés resultados.",
+    "otherAgencies": {
+      "title": "Otros cursos",
+      "description": "Te venden horas de video. Terminás el 15% y no tenés nada concreto al final.",
+      "tag1": "Solo teoría",
+      "tag2": "Sin soporte real",
+      "tag3": "Sin herramientas"
+    },
+    "claura": {
+      "title": "Claude Curso",
+      "description": "3 meses de programa con el stack completo de Claura, mentorías semanales y comunidad activa de founders.",
+      "tag1": "Stack completo incluido",
+      "tag2": "Agentes IA listos",
+      "tag3": "Mentoría semanal",
+      "tag4": "Resultado garantizado"
+    }
+  },
+  "caseStudy": {
+    "sectionLabel": "Casos de éxito",
+    "title": "Apps construidas",
+    "titleHighlight": "por alumnos",
+    "description": "Proyectos reales lanzados por emprendedores que terminaron el programa.",
+    "viewAll": "Ver todos los casos"
+  },
+  "faq": {
+    "sectionLabel": "Preguntas Frecuentes",
+    "title": "Tus preguntas respondidas.",
+    "description": "Todo lo que necesitás saber antes de sumarte. ¿Tenés más preguntas?",
+    "bookCall": "Agenda una llamada gratis",
+    "descriptionEnd": "y te explicamos todo.",
+    "question1": {
+      "question": "¿Necesito experiencia técnica para entrar?",
+      "answer": "No. El programa está diseñado para emprendedores sin background técnico. Claude Code hace el trabajo pesado — vos le das las instrucciones en lenguaje natural."
+    },
+    "question2": {
+      "question": "¿Cuánto tiempo lleva por semana?",
+      "answer": "3-4 horas semanales. Las clases son cortas (5-15 min) y el resto es tiempo de práctica. Podés avanzar a tu ritmo con el material grabado."
+    },
+    "question3": {
+      "question": "¿Qué incluye exactamente el acceso al stack de Claura?",
+      "answer": "Acceso a todas las herramientas que Claura usa con sus clientes: generación automática de contenido, flujos de automatización preconfigurados, CRM, biblioteca de agentes IA listos para usar y sistema de publicación multicanal."
+    },
+    "question4": {
+      "question": "¿Cuánto cuesta?",
+      "answer": "$1,800 USD pago único. Incluye los 3 meses de programa, acceso al stack completo de Claura, 12+ mentorías en vivo, comunidad Telegram y actualizaciones incluidas."
+    },
+    "question5": {
+      "question": "¿Qué pasa si me quedo trabado?",
+      "answer": "Para eso están las mentorías semanales y la comunidad de Telegram. Nadie avanza solo. Si hay un problema, lo resolvemos juntos en la próxima sesión."
+    }
+  },
+  "cta": {
+    "trustBadge": "De los creadores de Claura · +100 negocios automatizados",
+    "title": "Construí tu negocio con IA, hoy.",
+    "description": "Agenda una llamada gratuita de 30 minutos y te contamos exactamente cómo vas a llegar al resultado en 3 meses.",
+    "formTitle": "¿Listo para empezar?",
+    "formSubtitle": "Reservá tu lugar en la próxima cohorte. Los cupos son limitados para garantizar la calidad de las mentorías.",
+    "scheduleButton": "Reservar mi lugar",
+    "form": {
+      "namePlaceholder": "Nombre*",
+      "emailPlaceholder": "Correo electrónico*",
+      "servicesLabel": "¿Qué querés construir?",
+      "challengeLabel": "¿Cuál es tu mayor desafío hoy?",
+      "messagePlaceholder": "Contanos sobre tu negocio...",
+      "submitButton": "Reservar lugar",
+      "disclaimer": "Al enviar, aceptás nuestros",
+      "termsLink": "términos de servicio."
+    },
+    "services": {
+      "aiAssessment": "Primera app con Claude Code",
+      "workflowAutomation": "Sistema de automatización",
+      "customAITools": "Agente IA para mi negocio",
+      "trainingSupport": "Automatizar contenido",
+      "implementingAI": "Todo lo anterior",
+      "allAbove": "No sé por dónde empezar"
+    },
+    "challenges": {
+      "manualTasks": "Hago todo manual y no escalo",
+      "unclearStart": "No sé cómo usar IA en mi negocio",
+      "previousFailed": "Ya intenté y no vi resultados",
+      "scaleOperations": "Quiero lanzar un producto digital"
+    }
+  },
+  "education": {
+    "sectionLabel": "Educación",
+    "title": "Aprendé a construir con",
+    "titleHighlight": "Claude Code",
+    "description": "Programa de aceleración de 3 meses con acceso al stack completo de Claura.",
+    "cta": "Ver el programa",
+    "feature1Title": "3 meses de resultado",
+    "feature1Desc": "Al terminar tenés tu app o automatización corriendo.",
+    "feature2Title": "Sin experiencia técnica",
+    "feature2Desc": "Diseñado para emprendedores, no developers.",
+    "feature3Title": "Stack completo incluido",
+    "feature3Desc": "Herramientas, agentes y flujos listos para usar.",
+    "feature4Title": "12+ mentorías en vivo",
+    "feature4Desc": "Acompañamiento semanal hasta tener resultados."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "services": "Programa",
+    "caseStudies": "Casos",
+    "about": "Nosotros",
+    "bookCall": "Reservar lugar"
+  },
+  "footer": {
+    "tagline": "Un programa de",
+    "rights": "© 2026 Claude Curso by Claura",
+    "links": {
+      "privacy": "Privacidad",
+      "terms": "Términos"
+    }
+  }
+}
