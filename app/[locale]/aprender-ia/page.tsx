@@ -45,6 +45,7 @@ function AprenderIAContent() {
         <LandingTemplate
           variant={variant}
           marqueeLabel="Alumnos que ya están automatizando:"
+          processSectionLabel="Lo que aprendés"
           processTitle='De cero a <span class="font-light italic text-[var(--color-brown-muted)]">resultados reales</span>.'
           processSubtitle="Cuatro etapas que van desde los fundamentos hasta tener proyectos reales funcionando en tu negocio."
           steps={steps}

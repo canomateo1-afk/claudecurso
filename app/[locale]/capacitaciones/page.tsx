@@ -46,6 +46,7 @@ function CapacitacionesContent() {
         <LandingTemplate
           variant={variant}
           marqueeLabel="Empresas que capacitamos:"
+          processSectionLabel="El programa"
           processTitle='De diagnóstico a equipo <span class="font-light italic text-[var(--color-brown-muted)]">operando con IA</span>.'
           processSubtitle="Cuatro etapas para llevar a tu equipo de cero a usar IA en su trabajo diario."
           steps={steps}

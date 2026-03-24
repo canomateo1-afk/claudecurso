@@ -45,6 +45,7 @@ function CrearAppContent() {
         <LandingTemplate
           variant={variant}
           marqueeLabel="Alumnos que ya lanzaron su producto:"
+          processSectionLabel="Lo que construís"
           processTitle='De idea a app <span class="font-light italic text-[var(--color-brown-muted)]">publicada</span>.'
           processSubtitle="Cuatro etapas que van desde las herramientas hasta tener tu producto live y listo para conseguir usuarios."
           steps={steps}

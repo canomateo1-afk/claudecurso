@@ -36,6 +36,7 @@ export interface LandingTemplateProps {
   variant: LandingVariant;
   trustBadge?: string;
   marqueeLabel?: string;
+  processSectionLabel?: string;
   processTitle: string;
   processSubtitle: string;
   steps: LandingStep[];
@@ -79,6 +80,7 @@ function FAQItem({ question, answer, isOpen, onClick }: { question: string; answ
 
 export function LandingTemplate({
   variant, trustBadge = "Hemos ayudado a más de 100 negocios", marqueeLabel = "Marcas que trabajan con nosotros:",
+  processSectionLabel = "Cómo funciona",
   processTitle, processSubtitle, steps, differentialLabel, differentialTitle, differentialTitleHighlight, differentialDesc,
   stats, faqs, calLink, ctaPrimary, ctaSecondary = "Cómo funciona", heroImage = "/images/flower.png",
 }: LandingTemplateProps) {
@@ -134,7 +136,7 @@ export function LandingTemplate({
       <section id="proceso" className="py-24 px-6 bg-[var(--color-cream)]">
         <div className="max-w-[var(--container-max-width)] mx-auto">
           <div className="text-center mb-16">
-            <SectionLabel>Cómo funciona</SectionLabel>
+            <SectionLabel>{processSectionLabel}</SectionLabel>
             <motion.h2 initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }} className="font-display text-[clamp(2rem,4vw,3.5rem)] font-normal leading-tight mb-4" dangerouslySetInnerHTML={{ __html: processTitle }} />
             <motion.p initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.1 }} className="text-[var(--color-text-secondary)] max-w-[700px] mx-auto leading-relaxed">{processSubtitle}</motion.p>
           </div>

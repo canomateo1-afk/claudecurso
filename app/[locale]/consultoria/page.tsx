@@ -45,6 +45,7 @@ function ConsultoriaContent() {
         <LandingTemplate
           variant={variant}
           marqueeLabel="Empresas que asesoramos:"
+          processSectionLabel="Cómo trabajamos"
           processTitle='De diagnóstico a <span class="font-light italic text-[var(--color-brown-muted)]">resultados medibles</span>.'
           processSubtitle="Cuatro etapas para llevar la IA a tu negocio de forma estratégica y con impacto real."
           steps={steps}
