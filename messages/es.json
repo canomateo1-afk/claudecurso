@@ -47,32 +47,32 @@
   },
   "services": {
     "sectionLabel": "El programa",
-    "title": "3 meses para",
-    "titleHighlight": "transformar tu negocio",
-    "titleEnd": "que no lo son.",
-    "description": "Cuatro etapas que van desde entender tu negocio hasta dejar a tu equipo operando el sistema de forma autónoma.",
+    "title": "Lo que construís en",
+    "titleHighlight": "60 días",
+    "titleEnd": "",
+    "description": "Cuatro fases con entregables concretos. Cada una termina con algo publicado — no teoría, no ejercicios.",
     "discover": {
-      "title": "Discover",
+      "title": "Setup inicial",
       "number": "01",
-      "description": "Entendemos tu negocio, mapeamos tus flujos actuales e identificamos exactamente dónde la IA puede eliminar trabajo manual y generar impacto real."
+      "description": "Instalás y configurás todo el stack desde cero: Claude, Cursor, Vercel, Supabase y GitHub. Al final de esta fase tenés tu entorno listo y tu primera página publicada con dominio propio."
     },
     "build": {
-      "title": "Build",
+      "title": "Primera app",
       "number": "02",
-      "description": "Diseñamos y construimos el sistema a medida — integraciones, agentes, pipelines de contenido — adaptado a cómo ya trabaja tu equipo."
+      "description": "Construís tu primera aplicación funcional: base de datos, autenticación, formularios y lógica de negocio. Sin escribir código manualmente — la IA lo hace, vos lo dirigís."
     },
     "optimize": {
-      "title": "Optimize",
+      "title": "Tu proyecto real",
       "number": "03",
-      "description": "Ajustamos los modelos con datos reales de tu negocio, iteramos sobre los outputs y refinamos cada parte del sistema hasta que funcione exactamente como necesitás."
+      "description": "Pasás a construir tu propia idea. Pagos con Stripe, panel de usuario, integraciones con APIs externas y las funcionalidades específicas que necesita tu producto."
     },
     "train": {
-      "title": "Train",
+      "title": "Lanzamiento",
       "number": "04",
-      "description": "Capacitamos a tu equipo para operar el sistema de forma independiente y brindamos asesoría continua para que puedas escalar sin depender de nosotros."
+      "description": "Publicás tu app, configurás analytics, conseguís tus primeros usuarios y aprendés a iterar rápido. Al terminar esta fase tenés un producto real funcionando en producción."
     },
-    "bookFreeCall": "Agenda una llamada gratis",
-    "subtitle": "No es un curso. Es un programa de aceleración con herramientas reales, mentorías semanales y acompañamiento hasta que tenés resultados.",
+    "bookFreeCall": "Reservar mi lugar",
+    "subtitle": "Cuatro fases, 60 días, tu app publicada.",
     "service1Title": "Mes 1 — Fundamentos",
     "service1Description": "Claude Code, primera app, base de datos, autenticación y tu primer deploy con dominio propio.",
     "service2Title": "Mes 2 — Automatizaciones",
