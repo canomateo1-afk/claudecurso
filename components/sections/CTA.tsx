@@ -5,8 +5,35 @@ import { Star, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-export function CTA() {
+interface CTAProps {
+  trustBadge?: string;
+  title?: string;
+  description?: string;
+  formTitle?: string;
+  formSubtitle?: string;
+  scheduleButton?: string;
+  calLink?: string;
+}
+
+export function CTA({
+  trustBadge,
+  title,
+  description,
+  formTitle,
+  formSubtitle,
+  scheduleButton,
+  calLink,
+}: CTAProps = {}) {
   const t = useTranslations("cta");
+
+  const badge = trustBadge ?? t("trustBadge");
+  const heading = title ?? t("title");
+  const desc = description ?? t("description");
+  const fTitle = formTitle ?? t("formTitle");
+  const fSubtitle = formSubtitle ?? t("formSubtitle");
+  const btnLabel = scheduleButton ?? t("scheduleButton");
+  const calSlug = calLink ?? "mateo-cano/construye-y-automatiza-con-ia";
+  const calNamespace = calSlug.split("/").pop() ?? "construye-y-automatiza-con-ia";
 
   return (
     <section id="book-a-call" className="py-24 px-6 bg-[var(--color-cream)]">
@@ -41,17 +68,17 @@ export function CTA() {
                 ))}
               </div>
               <span className="text-sm text-white/90">
-                {t("trustBadge")}
+                {badge}
               </span>
             </div>
 
             {/* Center - Main Content */}
             <div className="relative z-10 text-center">
               <h2 className="font-display text-[clamp(2rem,4vw,3rem)] text-white leading-tight mb-4">
-                {t("title")}
+                {heading}
               </h2>
               <p className="text-white/80 max-w-[400px] mx-auto">
-                {t("description")}
+                {desc}
               </p>
             </div>
 
@@ -92,21 +119,21 @@ export function CTA() {
           >
             <div className="max-w-md">
               <h3 className="font-display text-2xl md:text-3xl text-[var(--color-text-primary)] mb-4">
-                {t("formTitle")}
+                {fTitle}
               </h3>
               <p className="text-[var(--color-text-secondary)] mb-8">
-                {t("formSubtitle")}
+                {fSubtitle}
               </p>
               <motion.button
-                data-cal-namespace="crea-tu-primer-plataforma-con-claude"
-                data-cal-link="mateo-cano/crea-tu-primer-plataforma-con-claude"
+                data-cal-namespace={calNamespace}
+                data-cal-link={calSlug}
                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 h-14 bg-[var(--color-charcoal)] text-white rounded-lg font-medium text-base hover:bg-[var(--color-charcoal-light)] transition-all duration-300 cursor-pointer"
                 whileHover={{ scale: 1.02, y: -1 }}
                 whileTap={{ scale: 0.98 }}
                 transition={{ type: "spring", stiffness: 400, damping: 17 }}
               >
-                <span>{t("scheduleButton")}</span>
+                <span>{btnLabel}</span>
                 <motion.span
                   className="inline-flex"
                   whileHover={{ x: 4 }}

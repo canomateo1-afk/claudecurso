@@ -16,3 +16,4 @@ export { AboutTestimonial } from "./AboutTestimonial";
 export { CaseStudyDetail } from "./CaseStudyDetail";
 export { ServiceDetail } from "./ServiceDetail";
 export { Education } from "./Education";
+export { LandingTemplate } from "./LandingTemplate";
