@@ -5,6 +5,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import { locales, type Locale } from "@/i18n/config";
 import { CalProvider } from "@/components/CalProvider";
+import { GoogleAdsTracking } from "@/components/GoogleAdsTracking";
 import "../globals.css";
 
 const instrumentSerif = Instrument_Serif({ variable: "--font-instrument-serif", subsets: ["latin"], weight: "400", style: ["normal", "italic"], display: "swap" });
@@ -38,7 +39,7 @@ export default async function LocaleLayout({ children, params }: { children: Rea
     <html lang={locale} className={`${instrumentSerif.variable} ${inter.variable} ${halant.variable}`}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <CalProvider>{children}</CalProvider>
+          <GoogleAdsTracking /><CalProvider>{children}</CalProvider>
         </NextIntlClientProvider>
       </body>
     </html>
