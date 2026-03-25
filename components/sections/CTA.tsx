@@ -32,7 +32,7 @@ export function CTA({
   const fTitle = formTitle ?? t("formTitle");
   const fSubtitle = formSubtitle ?? t("formSubtitle");
   const btnLabel = scheduleButton ?? t("scheduleButton");
-  const calSlug = calLink ?? "mateo-cano/construye-y-automatiza-con-ia";
+  const calSlug = calLink ?? "mateo-cano/aprende-ia";
   const calNamespace = calSlug.split("/").pop() ?? "construye-y-automatiza-con-ia";
 
   return (

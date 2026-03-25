@@ -55,7 +55,7 @@ function ConsultoriaContent() {
           differentialDesc="No te recomendamos herramientas al azar. Empezamos por entender tu negocio y encontrar las 3 oportunidades de mayor impacto. Después construimos el plan."
           stats={stats}
           faqs={faqs}
-          calLink="mateo-cano/consultoria-ia"
+          calLink="mateo-cano/aprende-ia"
           ctaPrimary="Quiero asesoría en IA"
         />
         <CTA
@@ -65,7 +65,7 @@ function ConsultoriaContent() {
           formTitle="¿Listo para implementar IA?"
           formSubtitle="30 minutos para entender tu negocio y mostrarte el camino concreto."
           scheduleButton="Quiero asesoría en IA"
-          calLink="mateo-cano/consultoria-ia"
+          calLink="mateo-cano/aprende-ia"
         />
       </main>
       <Footer />

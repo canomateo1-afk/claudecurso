@@ -206,7 +206,7 @@ export function Footer() {
                   {link.calLink ? (
                     <button
                       data-cal-namespace="crea-tu-primer-plataforma-con-claude"
-                      data-cal-link="mateo-cano/crea-tu-primer-plataforma-con-claude"
+                      data-cal-link="mateo-cano/aprende-ia"
                       data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
                       className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer"
                     >

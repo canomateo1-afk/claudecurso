@@ -55,7 +55,7 @@ function AprenderIAContent() {
           differentialDesc="No enseñamos teoría. Cada clase termina con un ejercicio que podés aplicar el mismo día. Al final del curso, tenés un portfolio de automatizaciones reales."
           stats={stats}
           faqs={faqs}
-          calLink="mateo-cano/aprender-ia"
+          calLink="mateo-cano/aprende-ia"
           ctaPrimary="Quiero aprender IA"
         />
         <CTA
@@ -65,7 +65,7 @@ function AprenderIAContent() {
           formTitle="¿Listo para aprender IA?"
           formSubtitle="Una llamada de 30 minutos para entender tu situación y ver si podemos ayudarte."
           scheduleButton="Quiero aprender IA"
-          calLink="mateo-cano/aprender-ia"
+          calLink="mateo-cano/aprende-ia"
         />
       </main>
       <Footer />

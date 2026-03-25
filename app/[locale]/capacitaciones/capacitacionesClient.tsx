@@ -56,7 +56,7 @@ function CapacitacionesContent() {
           differentialDesc="No enseñamos IA genérica. Analizamos tu empresa, tus procesos y tus herramientas, y diseñamos un programa con ejemplos y ejercicios de tu industria específica."
           stats={stats}
           faqs={faqs}
-          calLink="mateo-cano/capacitaciones-ia"
+          calLink="mateo-cano/aprende-ia"
           ctaPrimary="Quiero capacitar a mi equipo"
         />
         <CTA
@@ -66,7 +66,7 @@ function CapacitacionesContent() {
           formTitle="¿Listo para capacitar a tu equipo?"
           formSubtitle="30 minutos para entender tu empresa y armar una propuesta a medida."
           scheduleButton="Quiero capacitar a mi equipo"
-          calLink="mateo-cano/capacitaciones-ia"
+          calLink="mateo-cano/aprende-ia"
         />
       </main>
       <Footer />

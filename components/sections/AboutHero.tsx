@@ -56,7 +56,7 @@ export function AboutHero() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-wrap items-center gap-4"
             >
-              <Button calLink="mateo-cano/crea-tu-primer-plataforma-con-claude">{t("hero.ctaPrimary")}</Button>
+              <Button calLink="mateo-cano/aprende-ia">{t("hero.ctaPrimary")}</Button>
               <Button variant="secondary" href="#how-we-work" icon="play">
                 {t("hero.ctaSecondary")}
               </Button>

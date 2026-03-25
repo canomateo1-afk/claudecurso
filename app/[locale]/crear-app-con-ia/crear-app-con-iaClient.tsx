@@ -55,7 +55,7 @@ function CrearAppContent() {
           differentialDesc="Con Claude y Cursor, describís lo que querés y la IA lo construye. Tu rol es el de product manager — decidís qué hacer, la IA lo implementa."
           stats={stats}
           faqs={faqs}
-          calLink="mateo-cano/crear-app-con-ia"
+          calLink="mateo-cano/aprende-ia"
           ctaPrimary="Quiero crear mi app"
         />
         <CTA
@@ -65,7 +65,7 @@ function CrearAppContent() {
           formTitle="¿Listo para construir tu app?"
           formSubtitle="30 minutos para entender tu idea y mostrarte el camino."
           scheduleButton="Quiero crear mi app"
-          calLink="mateo-cano/crear-app-con-ia"
+          calLink="mateo-cano/aprende-ia"
         />
       </main>
       <Footer />

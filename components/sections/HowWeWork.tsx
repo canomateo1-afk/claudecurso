@@ -49,7 +49,7 @@ export function HowWeWork() {
                 {t("description")}
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <Button calLink="mateo-cano/crea-tu-primer-plataforma-con-claude">{t("ctaPrimary")}</Button>
+                <Button calLink="mateo-cano/aprende-ia">{t("ctaPrimary")}</Button>
                 <Button variant="secondary" icon="play">
                   {t("ctaSecondary")}
                 </Button>

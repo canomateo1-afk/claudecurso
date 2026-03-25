@@ -94,7 +94,7 @@ export function FAQ() {
             {t("description")}{" "}
             <button
               data-cal-namespace="crea-tu-primer-plataforma-con-claude"
-              data-cal-link="mateo-cano/crea-tu-primer-plataforma-con-claude"
+              data-cal-link="mateo-cano/aprende-ia"
               data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":"true"}'
               className="underline hover:text-[var(--color-text-primary)] cursor-pointer"
             >
