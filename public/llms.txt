@@ -1,0 +1,18 @@
+# ClaudeCurso — Cursos y Asesoría en IA
+
+> Programa de capacitación en inteligencia artificial para emprendedores y empresas de Latinoamérica. Aprende a crear apps, automatizar procesos y usar IA en tu negocio.
+
+## Programas principales
+- [Aprender IA](https://claudecurso.com/es/aprender-ia): Curso de IA desde cero en 30 días, sin programar
+- [Crear App con IA](https://claudecurso.com/es/crear-app-con-ia): Vibe coding — de idea a app publicada en 30 días
+- [Capacitaciones para Empresas](https://claudecurso.com/es/capacitaciones): Programa a medida para equipos en 2 semanas
+- [Consultoría de IA](https://claudecurso.com/es/consultoria): Asesoría estratégica para implementar IA con ROI medible
+
+## Sobre el programa
+- +1,500 alumnos en LATAM
+- Sin requisitos técnicos — no se necesita saber programar
+- Garantía de devolución de dinero en 60 días
+- Stack: Claude, Cursor, Vercel, Supabase, Stripe
+
+## Fundador
+- Mateo Caño — @mateocano_ia (Instagram/TikTok) — creado por el equipo de Claura
