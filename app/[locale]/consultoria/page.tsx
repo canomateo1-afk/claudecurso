@@ -29,9 +29,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [{"@type": "Question", "name": "¿Para qué tipo de negocios es esta asesoría?", "acceptedAnswer": {"@type": "Answer", "text": "Para empresas de cualquier industria que quieren implementar IA estratégicamente."}}, {"@type": "Question", "name": "¿Cuántas sesiones incluye?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del alcance. Un diagnóstico inicial es una sesión. Un plan completo con acompañamiento es un programa de 4 a 8 semanas."}}, {"@type": "Question", "name": "¿Implementan ustedes o solo asesoran?", "acceptedAnswer": {"@type": "Answer", "text": "Los dos. Podemos quedarnos como asesores estratégicos o implementar directamente."}}, {"@type": "Question", "name": "¿Cuánto cuesta?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del alcance del trabajo. Agenda una llamada y te damos una propuesta clara con entregables y precios definidos."}}],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Consultoría de IA para Empresas",
+  description: "Asesoría estratégica para implementar inteligencia artificial en tu negocio. Identificamos las 3 mejores oportunidades con ROI medible.",
+  provider: { "@type": "Organization", name: "ClaudeCurso", url: "https://claudecurso.com" },
+};
+
 export default function Page() {
   return (
-    <Suspense fallback={null}>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <Suspense fallback={null}>
       <Client />
     </Suspense>
   );

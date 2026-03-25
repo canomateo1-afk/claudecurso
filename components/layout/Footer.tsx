@@ -49,8 +49,13 @@ export function Footer() {
       { href: "/#services", label: "Programa" },
     ],
     resources: [
-
       { href: "/#faq", label: t("links.faq") },
+    ],
+    programas: [
+      { href: "/aprender-ia", label: "Aprender IA" },
+      { href: "/crear-app-con-ia", label: "Crear App con IA" },
+      { href: "/capacitaciones", label: "Capacitaciones Empresas" },
+      { href: "/consultoria", label: "Consultoría IA" },
     ],
     connect: [
       { href: "#", label: t("links.bookCall"), calLink: true },
@@ -143,7 +148,7 @@ export function Footer() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.3 }}
-          className="grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-12 max-w-[700px] mx-auto mb-16"
+          className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 max-w-[900px] mx-auto mb-16"
         >
           <div>
             <h4 className="font-semibold text-sm mb-4">{t("navigate")}</h4>
@@ -165,6 +170,22 @@ export function Footer() {
             <h4 className="font-semibold text-sm mb-4">{t("resources")}</h4>
             <ul className="space-y-3">
               {footerLinks.resources.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-sm text-[var(--color-text-secondary)] hover:text-[var(--color-text-primary)] transition-colors"
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <div>
+            <h4 className="font-semibold text-sm mb-4">Programas</h4>
+            <ul className="space-y-3">
+              {footerLinks.programas.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}

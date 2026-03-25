@@ -29,9 +29,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [{"@type": "Question", "name": "¿Necesito saber programar?", "acceptedAnswer": {"@type": "Answer", "text": "No. El curso está diseñado para personas sin experiencia técnica. Usamos herramientas visuales y prompts — nada de código."}}, {"@type": "Question", "name": "¿Qué voy a poder hacer al terminar?", "acceptedAnswer": {"@type": "Answer", "text": "Crear automatizaciones para tu negocio, generar contenido con IA, usar agentes para investigar y redactar, y entender qué herramientas usar para cada problema."}}, {"@type": "Question", "name": "¿Cuánto tiempo lleva por semana?", "acceptedAnswer": {"@type": "Answer", "text": "Entre 3 y 5 horas semanales. El contenido es asincrónico — lo hacés cuando podés — con mentorías en vivo opcionales."}}, {"@type": "Question", "name": "¿Qué pasa si no me sirve?", "acceptedAnswer": {"@type": "Answer", "text": "Tenés 7 días de garantía. Si completaste los primeros módulos y no ves valor, te devolvemos el dinero sin preguntas."}}],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Aprender IA desde Cero",
+  description: "Curso práctico de inteligencia artificial desde cero. Sin programar. Automatizaciones, agentes IA y herramientas para tu negocio en 30 días.",
+  provider: { "@type": "Organization", name: "ClaudeCurso", url: "https://claudecurso.com" },
+};
+
 export default function Page() {
   return (
-    <Suspense fallback={null}>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <Suspense fallback={null}>
       <Client />
     </Suspense>
   );

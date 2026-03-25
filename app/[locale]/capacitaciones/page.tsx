@@ -29,9 +29,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [{"@type": "Question", "name": "¿Para cuántas personas es el programa?", "acceptedAnswer": {"@type": "Answer", "text": "Desde equipos de 3 hasta empresas de 200+. El programa se adapta al tamaño y las necesidades de cada organización."}}, {"@type": "Question", "name": "¿Es presencial o remoto?", "acceptedAnswer": {"@type": "Answer", "text": "Los dos. Adaptamos el formato a lo que funcione mejor para tu empresa."}}, {"@type": "Question", "name": "¿Cuánto tiempo llevan las sesiones?", "acceptedAnswer": {"@type": "Answer", "text": "Sesiones de 2 a 3 horas, 2 o 3 veces por semana. En 2 semanas completamos el programa base."}}, {"@type": "Question", "name": "¿Cuánto cuesta?", "acceptedAnswer": {"@type": "Answer", "text": "Depende del tamaño del equipo y el alcance. Agenda una llamada y te damos una propuesta detallada."}}],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Service",
+  name: "Capacitaciones de IA para Empresas",
+  description: "Programa de capacitación en inteligencia artificial a medida para empresas. 2 semanas, casos reales de tu industria, seguimiento post-capacitación.",
+  provider: { "@type": "Organization", name: "ClaudeCurso", url: "https://claudecurso.com" },
+};
+
 export default function Page() {
   return (
-    <Suspense fallback={null}>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <Suspense fallback={null}>
       <Client />
     </Suspense>
   );

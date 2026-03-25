@@ -29,9 +29,27 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   };
 }
 
+
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [{"@type": "Question", "name": "¿Necesito saber programar?", "acceptedAnswer": {"@type": "Answer", "text": "No. El vibe coding con IA te permite construir apps sin escribir código manualmente. La IA lo escribe — vos lo dirigís."}}, {"@type": "Question", "name": "¿Qué tipo de apps puedo construir?", "acceptedAnswer": {"@type": "Answer", "text": "Landing pages, SaaS, marketplaces, herramientas internas, dashboards, bots, APIs."}}, {"@type": "Question", "name": "¿Cuánto tiempo lleva?", "acceptedAnswer": {"@type": "Answer", "text": "Con 5 a 8 horas semanales, en 30 días tenés tu primera app publicada."}}, {"@type": "Question", "name": "¿Qué pasa cuando termino?", "acceptedAnswer": {"@type": "Answer", "text": "Seguís con acceso de por vida al contenido y la comunidad."}}],
+};
+
+const serviceJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Course",
+  name: "Crear App con IA — Vibe Coding",
+  description: "Construí tu primera app, SaaS o plataforma con IA. Sin saber programar. De idea a producto publicado en 30 días con Claude, Cursor y Vercel.",
+  provider: { "@type": "Organization", name: "ClaudeCurso", url: "https://claudecurso.com" },
+};
+
 export default function Page() {
   return (
-    <Suspense fallback={null}>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceJsonLd) }} />
+      <Suspense fallback={null}>
       <Client />
     </Suspense>
   );
